@@ -95,7 +95,7 @@ nav{
     background: #29fd53;
     border-radius: 50%;
     border: 6px solid var(--clr);
-    transform: 0.5s;
+    transition: 0.5s;
 }
 
 .indicator::before {

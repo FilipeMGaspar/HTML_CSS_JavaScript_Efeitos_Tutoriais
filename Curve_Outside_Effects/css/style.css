@@ -67,7 +67,7 @@ nav{
     color: var(--clr);
 }
 
-.navigation ul li:hover a .icon {
+.navigation ul li.ative a .icon {
     transform: translateY(-35px);
 }
 
@@ -82,7 +82,15 @@ nav{
     transform: translateY(20px);
 } 
 
-.navigation ul li:hover a .text {
+.navigation ul li.ative a .text {
     opacity: 1;
     transform: translateY(10px);
+}
+
+.indicator {
+    position: absolute;
+    top: -50%;
+    width: 70px;
+    height: 70px;
+    background: #29fd53;
 }

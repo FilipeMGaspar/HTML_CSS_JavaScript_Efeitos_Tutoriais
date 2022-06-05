@@ -81,3 +81,13 @@ body {
     line-height: 60px;
     white-space: normal;
 }
+
+.toogle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 50px;
+    background: #4d5bf9;
+    border-radius: 10px;
+    cursor: pointer;
+}

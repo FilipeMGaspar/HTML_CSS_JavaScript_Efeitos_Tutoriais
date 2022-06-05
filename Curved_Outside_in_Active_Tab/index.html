@@ -55,11 +55,19 @@
         </ul>
     </div>
 
+    <div class="toogle"></div>
+
     <!-- Ligação ao icones da ionicons -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
     <script>
+
+        let menuToggle = document.querySelector('.toogle')
+        menuToggle.onclick =  function(){
+            
+        }
+
         // add active class in selected list item
         let list = document.querySelector('.list')
         for(let i = 0; i < list.length; i++){

@@ -40,6 +40,10 @@ body {
     width: 100%;
 }
 
+.navigation ul li .active{
+    
+}
+
 .navigation ul li a {
     position: relative;
     display: block;
@@ -63,5 +67,10 @@ body {
 }
 
 .navigation ul li a title {
-    
+    position: relative;
+    display: block;
+    padding-left: 10px;
+    height: 60px;
+    line-height: 60px;
+    white-space: normal;
 }

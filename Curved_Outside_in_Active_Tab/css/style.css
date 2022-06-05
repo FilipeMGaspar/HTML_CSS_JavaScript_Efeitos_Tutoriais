@@ -26,6 +26,10 @@ body {
     overflow-x: hidden;
 }
 
+.navigation.active {
+    width: 300px;
+}
+
 .navigation ul {
     position: absolute;
     top: 0;

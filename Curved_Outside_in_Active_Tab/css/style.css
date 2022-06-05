@@ -149,7 +149,7 @@ body {
     background: #ff4d89;
     
 }
-/*
+
 .toogle ion-icon {
     position: absolute;
     color: #fff;
@@ -157,6 +157,7 @@ body {
     display: none;
 }
 
+/*
 .toogle ion-icon.open,
 .tooglee.active ion-icon.close {
     display: block;

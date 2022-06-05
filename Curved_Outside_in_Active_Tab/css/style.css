@@ -38,10 +38,11 @@ body {
     position: relative;
     list-style: none;
     width: 100%;
+    border-top-left-radius: 20px;
 }
 
-.navigation ul li .active{
-    
+.navigation ul li.active {
+    background: #fff;
 }
 
 .navigation ul li a {
@@ -52,6 +53,11 @@ body {
     text-decoration: none;
     color: #fff;
 }
+
+.navigation ul li.active a {
+    color: #333;
+}
+
 
 .navigation ul li a .icon {
     position: relative;

@@ -39,6 +39,7 @@ body {
     list-style: none;
     width: 100%;
     border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 
 .navigation ul li.active {

@@ -157,13 +157,15 @@ body {
     display: none;
 }
 
-/*
-.toogle ion-icon.open,
-.tooglee.active ion-icon.close {
+
+.toogle ion-icon.open/*,
+.tooglee.active ion-icon.close*/ {
     display: block;
 }
 
+/*
 .toogle ion-icon.close,
 .toogle.active ion-icon.open {
     display: none;
-}*/
+}
+*/

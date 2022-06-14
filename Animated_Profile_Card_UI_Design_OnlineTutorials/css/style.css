@@ -40,3 +40,7 @@ body {
     border-radius: 20px;
     box-shadow: 0 15px 50px rgba(0, 0, 0, 0.35);
 }
+
+.imgBx img {
+    position: absolute;
+}

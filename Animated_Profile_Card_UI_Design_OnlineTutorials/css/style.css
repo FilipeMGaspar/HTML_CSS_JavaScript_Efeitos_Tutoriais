@@ -72,3 +72,10 @@ body {
     width: 100%;
     transition: 0.7s;
 }
+
+.card .content .details h2 {
+    font-size: 1.25em;
+    font-weight: 600;
+    color: #555;
+    line-height: 1.2em;
+}

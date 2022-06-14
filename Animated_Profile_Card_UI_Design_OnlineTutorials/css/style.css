@@ -85,3 +85,16 @@ body {
     font-weight: 500;
     opacity: 0.5;
 }
+
+.card .content .details .data {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.card .content .details .data h3 {
+    font-size: 1em;
+    line-height: 1.2em;
+    font-weight: 600;
+}
+

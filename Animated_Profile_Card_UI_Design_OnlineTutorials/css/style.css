@@ -115,4 +115,13 @@ body {
     border-radius: 5px;
     border: none;
     outline: none;
+    font-size: 1em;
+    font-weight: 500;
+    background: #ff5f95;
+    color: #fff;
+    cursor: pointer;
+}
+
+.card .content .details .actionBtn button:nth-child(2) {
+    
 }

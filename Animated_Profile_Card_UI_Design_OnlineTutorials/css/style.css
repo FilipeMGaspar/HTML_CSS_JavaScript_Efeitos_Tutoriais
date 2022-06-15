@@ -64,6 +64,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    overflow: hidden;
 }
 
 .card .content .details {
@@ -71,6 +72,11 @@ body {
     text-align: center;
     width: 100%;
     transition: 0.7s;
+    transform: translateY(150px);
+}
+
+.card:hover .content .details {
+    transform: translateY(0px);
 }
 
 .card .content .details h2 {
@@ -123,5 +129,7 @@ body {
 }
 
 .card .content .details .actionBtn button:nth-child(2) {
-    
+    border: 1px solid;
+    color: #999;
+    background: #fff;
 }

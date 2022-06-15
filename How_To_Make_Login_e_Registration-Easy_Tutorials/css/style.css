@@ -50,5 +50,12 @@
 }
 
 .social-icons {
-    
+    margin: 30px auto;
+    text-align: center;
+}
+
+.social-icons i {
+    color: #fff;
+    width: 30px;
+    background: linear-gradient(to right, #ff105f, #ffad06);
 }

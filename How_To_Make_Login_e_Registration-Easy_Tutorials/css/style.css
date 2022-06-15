@@ -55,10 +55,16 @@
 }
 
 .social-icons i {
+    padding: 5px;
+    font-size: 1.2em;
+    text-align: center;
+    vertical-align: middle;
     color: #fff;
     width: 30px;
+    height: 30px;
     margin: 0 12px;
     box-shadow: 0 0 20px 0 #7f7f7f3d;
     cursor: pointer;
+    border-radius: 50%;
     background: linear-gradient(to right, #ff105f, #ffad06);
 }

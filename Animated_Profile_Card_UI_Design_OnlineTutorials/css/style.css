@@ -104,4 +104,12 @@ body {
     opacity: 0.5;
 }
 
-.card .content .details 
+.card .content .details .actionBtn {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card .content .details .actionBtn button {
+    
+}

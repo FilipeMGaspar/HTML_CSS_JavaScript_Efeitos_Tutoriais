@@ -13,8 +13,8 @@
         <div class="form-box">
             <div class="button-box">
                 <div id="btn"></div>
-                <button type="button" class="toggle-btn">Log In</button>
-                <button type="button" class="toggle-btn">Registar</button>
+                <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+                <button type="button" class="toggle-btn" onclick="register()">Registar</button>
             </div>
 
             <div class="social-icons">
@@ -41,5 +41,18 @@
             </form>
         </div>
     </div>
+
+    <!-- Eventos em javascript -->
+    <script>
+        let formLogin = document.querySelector("#login")
+        let formRegist = document.querySelector("#register")
+
+        divBtn = document.querySelector("#btn")
+
+       function register() {
+            formLogin.style.left = "-400px"
+            formLogin.style.display = "none"
+       }
+    </script>
 </body>
 </html>

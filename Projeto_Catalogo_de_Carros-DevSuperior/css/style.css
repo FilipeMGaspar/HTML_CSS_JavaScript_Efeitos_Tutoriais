@@ -70,3 +70,13 @@ nav ul li a {
 nav ul li a:hover {
     color: #00285f83;
 }
+
+nav ul button {
+    border: 1px solid var(--blue);
+    background: transparent;
+    padding: 8px 40px;
+    cursor: pointer;
+    margin-left: 30px;
+    color: var(--blue);
+    border-radius: 4px;
+}

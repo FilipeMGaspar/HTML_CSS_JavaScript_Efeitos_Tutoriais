@@ -197,3 +197,38 @@ section .card-item {
     justify-content: space-around;
 }
 
+.card-content { 
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card-item  img {
+    width: 80%;
+}
+
+.card-item h3 {
+    width: 90%;
+}
+
+.card-item p {
+    width: 90%;
+    font-style: italic;
+    color: #00000070;
+}
+
+.card-item button {
+    width: 90%;
+    padding: 15px 0;
+    border: none;
+    background: var(--blue);
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-bottom: 10px;
+}

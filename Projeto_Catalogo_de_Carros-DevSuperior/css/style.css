@@ -178,6 +178,18 @@ section .filter-card {
     padding-bottom: 20px ;
 }
 
+.title-wrapper-catalogo {
+    margin-top: 20px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-wrapper-catalogo h3 {
+    font-size: 1.5em;
+}
+
 section .card-wrapper {
     max-width: 1000px;
     height: 100%;

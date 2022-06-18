@@ -187,7 +187,9 @@ section .filter-card {
 }
 
 .title-wrapper-catalogo h3 {
-    font-size: 1.5em;
+    font-size: 2em;
+    letter-spacing: 2px;
+    font-weight: bold;
 }
 
 section .card-wrapper {
@@ -240,7 +242,7 @@ section .card-item {
     color: white;
     font-weight: bold;
     font-size: 1.1em;
-    letter-spacing: 1.5px;
+    letter-spacing: 2.2px;
     cursor: pointer;
     transition: 0.3s ease;
     margin-bottom: 10px;

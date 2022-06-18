@@ -232,3 +232,8 @@ section .card-item {
     transition: 0.3s ease;
     margin-bottom: 10px;
 }
+
+.card-item button:hover {
+    background: #dedede;
+    color: var(--blue);
+}

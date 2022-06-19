@@ -263,6 +263,21 @@ section .about{
     padding: 50px 10px;
 }
 
+.title-wrapper-about{
+    padding: 10px;
+    text-align: center;
+}
+
+.title-wrapper-about p{
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+.title-wrapper-about p span {
+    font-style: italic;
+    font-weight: 500;
+}
+
 .about-content {
     max-height: 1000px;
     min-width: 300px;
@@ -284,6 +299,14 @@ section .about{
     height: 100%;
     background: #00000065;
     border-radius: 8px;
+}
+
+.left h3 {
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 20px;
+    color: var(--gray);
+    letter-spacing: 2px;
 }
 
 .right {

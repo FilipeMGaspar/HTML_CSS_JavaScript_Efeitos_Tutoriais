@@ -329,6 +329,7 @@ section .about{
     max-width: 90%;
     font-size: 1em;
     letter-spacing: 2px;
-    text-align: right;
+    text-align: justify;
     color: rgba(0, 0, 0, 0.4);
+    line-height: 1.8em;
 }

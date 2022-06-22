@@ -388,3 +388,17 @@ section .about{
     width: 64px;
     height: 64px;
 }
+
+/* footer rodapé */
+footer {
+    width: 100%;
+    height: 250px;
+}
+
+footer .main {
+    width: 100%;
+    height: 200px;
+    background: var(--orange);
+    padding: 20px 10px;
+}
+

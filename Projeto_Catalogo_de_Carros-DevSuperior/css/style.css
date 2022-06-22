@@ -403,5 +403,18 @@ footer .main {
 }
 
 .footer-links {
-    
+    max-width: 1000px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
 }
+
+.footer-company, .footer-rental
+.footer-contact, .footer-social {
+    color: white;
+    height: 100%;
+    min-height: 100px;
+}
+

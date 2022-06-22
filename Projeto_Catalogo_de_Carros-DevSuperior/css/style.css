@@ -363,3 +363,18 @@ section .features {
     grid-gap: 30px;
 }
 
+.feature-card-iten {
+    max-width: 420px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid #dedede3b;
+    border-radius: 4px;
+}
+
+.feature-card-iten img {
+    width: 64px;
+    height: 64px;
+}

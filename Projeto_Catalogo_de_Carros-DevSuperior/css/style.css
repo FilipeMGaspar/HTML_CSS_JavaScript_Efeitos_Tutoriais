@@ -353,6 +353,7 @@ section .about{
 .title-wrapper-features h3 {
     text-indent: 50px;
 }
+
 .feature-card-block {
     max-width: 1000px;
     min-height: 300px;

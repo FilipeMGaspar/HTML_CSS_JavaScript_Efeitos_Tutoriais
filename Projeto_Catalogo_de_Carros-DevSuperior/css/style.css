@@ -418,3 +418,10 @@ footer .main {
     min-height: 100px;
 }
 
+.footer-links h4 {
+    margin-bottom: 10px;
+}
+
+.footer-links h6 {
+    margin-bottom: 8px;
+}

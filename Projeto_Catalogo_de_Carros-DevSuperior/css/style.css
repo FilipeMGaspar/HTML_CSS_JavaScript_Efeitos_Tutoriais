@@ -465,11 +465,19 @@ footer .last {
     }
 
     section .filter-card {
-       
+       width: 390px;
+       padding: 0px 10px;
     }
 
     .search-input {
         max-width: 700px;
         min-width: 240px;
     }
+
+    .search-button {
+        max-width: 150px;
+        min-width: 80px;
+    }
+
+    
 }

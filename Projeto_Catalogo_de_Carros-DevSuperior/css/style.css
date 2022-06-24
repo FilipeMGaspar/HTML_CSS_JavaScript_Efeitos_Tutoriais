@@ -470,13 +470,13 @@ footer .last {
     }
 
     .search-input {
-        max-width: 700px;
-        min-width: 240px;
+        max-width: 500px;
+        min-width: 200px;
     }
 
     .search-button {
-        max-width: 150px;
-        min-width: 80px;
+        max-width: 100px;
+        min-width: 70px;
     }
 
     .about {

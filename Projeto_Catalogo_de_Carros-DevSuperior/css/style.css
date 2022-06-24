@@ -505,4 +505,12 @@ footer .last {
         margin: 0px;
         text-align: left;
     }
+
+    .features {
+        height: 100%;
+    }
+
+    .feature-card-block {
+        
+    }
 }

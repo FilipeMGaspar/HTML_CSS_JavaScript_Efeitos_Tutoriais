@@ -453,6 +453,23 @@ footer .last {
 
     .header-block img {
         width: 70%;
+        position: absolute;
+        right: 16%;
+        top: 30%;
     }
 
+    .header-block .text {
+        position: absolute;
+        bottom: 10%;
+        left: 15;
+    }
+
+    section .filter-card {
+       
+    }
+
+    .search-input {
+        max-width: 700px;
+        min-width: 240px;
+    }
 }

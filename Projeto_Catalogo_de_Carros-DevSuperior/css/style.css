@@ -470,12 +470,12 @@ footer .last {
     }
 
     .search-input {
-        max-width: 500px;
+        max-width: 250px;
         min-width: 200px;
     }
 
     .search-button {
-        max-width: 100px;
+        max-width: 80px;
         min-width: 70px;
     }
 

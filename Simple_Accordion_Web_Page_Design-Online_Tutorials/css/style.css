@@ -92,3 +92,10 @@ body {
 .container .tab input:checked ~ .content {
     max-height: 100vh;
 }
+
+.container .tab .content p {
+    position: relative;
+    padding: 10px 0;
+    color: #333;
+    z-index: 10;
+}

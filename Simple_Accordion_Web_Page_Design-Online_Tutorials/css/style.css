@@ -15,10 +15,27 @@ body {
     background: #f5f8ff;
 }
 
-.container{
+.container {
     margin: 0 40px;
     max-width: 600px;
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+.container h1 {
+    color: #333;
+}
+
+.container .tab {
+    position: relative;
+    background: #fff;
+    padding: 0 20px 20px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.container .tab input {
+    
 }

@@ -45,3 +45,12 @@ body {
     align-items: center;
     cursor: pointer;
 }
+
+.container .tab label::after {
+    content: '+';
+    position: absolute;
+    right: 20px;
+    font-size: 2em;
+    color: rgba(0,0,0,0.1);
+    transition: transform 1s;
+}

@@ -54,3 +54,15 @@ body {
     color: rgba(0,0,0,0.1);
     transition: transform 1s;
 }
+
+.container .tab:hover label::after {
+    color: #333;
+}
+
+.container .tab input:checked ~ label::after {
+    transform: rotate(135deg);
+}
+
+.container .tab label h2 {
+    
+}

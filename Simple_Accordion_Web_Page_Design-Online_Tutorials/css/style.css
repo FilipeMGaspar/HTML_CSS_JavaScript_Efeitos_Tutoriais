@@ -88,3 +88,7 @@ body {
     transition: 1s;
     overflow: hidden;
 }
+
+.container .tab input:checked ~ .content {
+    max-height: 100vh;
+}

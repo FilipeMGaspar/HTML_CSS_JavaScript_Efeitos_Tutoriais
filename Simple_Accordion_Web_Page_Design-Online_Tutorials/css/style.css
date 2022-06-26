@@ -37,5 +37,11 @@ body {
 }
 
 .container .tab input {
-    
+    appearance: none;
+}
+
+.container .tab label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
 }

@@ -28,6 +28,15 @@ header nav ul li{
     margin: 20px;
 }
 
+header nav ul a {
+    color: white;
+    transition: ease 0.3s;
+}
+
+header nav ul a:hover {
+    color: rgb(132, 14, 201); 
+}
+
 #title {
     display: flex;
     flex-direction: column;
@@ -58,4 +67,8 @@ p {
     line-height: 20px;
     max-width: 500px;
     font-weight: 200;
+}
+
+img {
+    width: 580px;
 }

@@ -37,6 +37,17 @@ header nav ul a:hover {
     color: rgb(132, 14, 201); 
 }
 
+#inscreva-se-btn {
+    border: 2px solid rgb(132, 14, 201);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#inscreva-se-btn:hover {
+   background-color: rgb(132, 14, 201);
+   color: white;
+}
+
 #title {
     display: flex;
     flex-direction: column;
@@ -71,4 +82,15 @@ p {
 
 img {
     width: 580px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+input {
+    margin-top: 20px;
+    height: 20px;
 }

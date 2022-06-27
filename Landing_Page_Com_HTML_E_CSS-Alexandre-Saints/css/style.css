@@ -43,3 +43,9 @@ main {
     flex-direction: row;
     margin-top: 50px;
 }
+
+h2 {
+    font-size: 3em;
+    line-height: 60px;
+    font-weight: 600;
+}

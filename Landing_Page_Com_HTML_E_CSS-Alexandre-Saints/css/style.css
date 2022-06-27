@@ -90,7 +90,28 @@ form {
     width: 70%;
 }
 
+form [type="submit"] {
+    font-size: 17px;
+    height: 50px;
+    width: 50%;
+    background: rgb(132, 14, 201);
+    color: white;
+    font-weight: bold;
+    transition: ease-in 0.2s;
+}
+
+form [type="submit"]:hover {
+   cursor: pointer;
+   background: white;
+   color: rgb(132, 14, 201);
+}
+
 input {
     margin-top: 20px;
     height: 20px;
+    padding: 15px;
+    border-radius: 18px;
+    border: none;
+    font-size: 15px;
+    text-indent: 10px;
 }

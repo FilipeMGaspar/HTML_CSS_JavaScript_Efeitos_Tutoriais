@@ -127,4 +127,26 @@ input {
         display: flex;
         flex-direction: column;
     }
+
+    h2 {
+        font-size: 33px;
+        line-height: 43px;
+    }
+
+    form {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    input {
+        align-self: center;
+    }
+
+    img{
+     display: none;
+    }
+
+   nav ul {
+        text-align: center;    
+    }
 }

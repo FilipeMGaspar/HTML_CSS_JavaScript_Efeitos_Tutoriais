@@ -33,3 +33,24 @@ body {
     height: 300px;
     overflow: hidden;
 }
+
+.swiper-slide .imgBx img {
+    width: 100%;
+}
+
+.swiper-slide .details {
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.swiper-slide .details h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.swiper-slide .details h3 span {
+    font-size: 16px;
+}

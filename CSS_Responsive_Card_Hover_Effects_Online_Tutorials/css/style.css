@@ -27,7 +27,7 @@ body {
 .container .card {
     position: relative;
     max-width: 300px;
-    height: 420px;
+    height: 215px;
     background: #fff;
     margin: 30px 10px;
     padding: 20px 15px;
@@ -49,6 +49,7 @@ body {
     left: 20px;
     z-index: 1;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    background: transparent;
 }
 
 .container .card .imgBx img {
@@ -65,4 +66,11 @@ body {
     visibility: hidden;
     opacity: 0;
     transition: 0.3s ease-in-out;
+}
+
+.container .card:hover .content {
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: 0.3s;
 }

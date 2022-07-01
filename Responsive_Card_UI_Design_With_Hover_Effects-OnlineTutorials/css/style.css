@@ -106,5 +106,13 @@ body {
 }
 
 .box:hover .content{
+    opacity: 1;
+}
 
+.box .content h2 {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 1px;
 }

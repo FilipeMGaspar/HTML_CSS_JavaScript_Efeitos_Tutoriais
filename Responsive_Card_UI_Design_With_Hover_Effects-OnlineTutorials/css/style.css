@@ -101,6 +101,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     opacity: 0;
     transition: 0.5s;
 }
@@ -115,4 +116,11 @@ body {
     font-weight: 500;
     line-height: 20px;
     letter-spacing: 1px;
+}
+
+.box .content h2 span {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 200;
+    letter-spacing: 2px;
 }

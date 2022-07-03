@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css=?family=DM+Sans;400,500|Jost:400,500,600&display=swap");
+@import url("https://fonts.googleapis.com/css=?family=DM+Sans;400,500|Jost:400,500,600,700&display=swap");
 
 *{
     margin: 0;
@@ -72,7 +72,7 @@ body {
 .card-header {
     position: relative;
     display: flex;
-    height: 200px; /* Mudar para 200px*/
+    height: 200px;
     flex-shrink: 0;
     width: 100%;
     transition: 0.3s;
@@ -142,14 +142,14 @@ body {
     position: relative;
     flex: 1;
     display: flex;
-    padding-top: 10px;
+    padding-top: 15px;
     flex-direction: column;
 }
 
-.car-subtitle {
+.card-subtitle {
     font-weight: 700;
-    font-size: 13px;
-    margin-bottom: 8px;
+    font-size: 14px;
+    margin-bottom: 10px;
 }
 
 .card-content {

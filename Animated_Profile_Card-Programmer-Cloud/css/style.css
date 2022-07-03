@@ -23,7 +23,7 @@ body {
 .card {
     max-width: 340px;
     margin: auto;
-    overflow-y: a;
+    overflow-y: auto;
     position: relative;
     z-index: 1;
     overflow-x: hidden;
@@ -72,11 +72,12 @@ body {
 .card-header {
     position: relative;
     display: flex;
-    height: 600px; /* Mudar para 200px*/
+    height: 200px; /* Mudar para 200px*/
     flex-shrink: 0;
     width: 100%;
     transition: 0.3s;
 }
+
 
 .card-header * {
     transition: 0.3s;
@@ -96,8 +97,8 @@ body {
     transform: scale(1.2);
     transition: 0.5s;
 }
-
-.card-avatar {
+/*
+.card-avatar { 
     width: 100px;
     height: 100px;
     box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
@@ -111,3 +112,4 @@ body {
     left: 50%;
     transform: translateX(-50%) translateY(-64px);
 }
+*/

@@ -43,3 +43,22 @@ body {
     height: 100px;
     top: -50px;
 }
+
+.card.is-active .card-avatar {
+    transform: none;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    bottom: 10px;
+}
+
+.card.is-active .card-fullname,
+.card.is-active .card-jobtitle {
+    left: 86px;
+    transform: none;
+}
+
+.card.is-active .card-fullname {
+    bottom: 18px;
+    font-size: 19px;
+}

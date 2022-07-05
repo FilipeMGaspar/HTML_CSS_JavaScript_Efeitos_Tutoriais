@@ -333,3 +333,14 @@ body {
     transition: 0.3s;
 }
 
+.card[data-state="#about"] {
+    height: 450px;
+}
+
+.card[data-state="#about"] .card-main {
+    padding-top: 0;
+}
+
+.card[data-state="#contact"] {
+    height: 430px;
+}

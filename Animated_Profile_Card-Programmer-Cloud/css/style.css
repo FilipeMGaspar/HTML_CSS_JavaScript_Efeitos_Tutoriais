@@ -238,3 +238,19 @@ body {
         opacity: 1;
     }
 }
+
+.card-timeline {
+    margin-top: 30px;
+    position: relative;
+}
+
+.card-timeline::after {
+    background:  linear-gradient(to top, rgba(134, 214, 243, 0), 0%, #516acc 100%);
+    content: '';
+    left: 42px;
+    width: 2px;
+    top: 0;
+    height: 100%;
+    position: absolute;
+}
+

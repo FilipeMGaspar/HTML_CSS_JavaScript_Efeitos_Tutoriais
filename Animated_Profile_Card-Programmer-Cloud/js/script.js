@@ -10,5 +10,11 @@ const handleButtonClick = e => {
     card.classList.remove("is-active")
     card.setAttribute("data-state", targetSection)
     section.forEach(s => s.classList.remove("is-active"))
-    
+    buttons.forEach(b => b.classList.remove("is-active"))
+    e.target.classList.add("is-active")
+    section.classList.add("is-active")
 }
+
+buttons.forEach( btn => {
+    btn.addEventListener("click", handleButtonClick)
+})

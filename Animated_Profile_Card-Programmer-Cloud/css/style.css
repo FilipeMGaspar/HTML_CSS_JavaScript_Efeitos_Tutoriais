@@ -179,4 +179,14 @@ body {
     align-items: center;
     justify-content: center;
     transition: 0.3s;
+    background: rgba(93, 133, 193, 0.05);
+    margin-right: 10px;
 }
+.card-social a img {
+    width: 20px;
+}
+
+.card-social a:last-child {
+    margin-right: 0;
+}
+

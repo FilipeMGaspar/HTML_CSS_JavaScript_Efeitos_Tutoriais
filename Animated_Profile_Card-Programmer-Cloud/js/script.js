@@ -9,5 +9,6 @@ const handleButtonClick = e => {
     card.classList.add("is-active") :
     card.classList.remove("is-active")
     card.setAttribute("data-state", targetSection)
+    section.forEach(s => s.classList.remove("is-active"))
     
 }

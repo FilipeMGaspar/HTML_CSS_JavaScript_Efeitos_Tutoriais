@@ -311,5 +311,10 @@ body {
 }
 
 .card-contact img {
-    
+    flex-shrink: 0;
+    width: 30px;
+    margin-right: 12px;
+    transition: 0.3s;
+    padding-right: 12px;
 }
+

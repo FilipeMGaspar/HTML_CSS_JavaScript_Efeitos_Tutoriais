@@ -88,6 +88,8 @@ body {
     position: relative;
     list-style: none;
     width: 100%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
    /* background: #fff; */
 }
 
@@ -101,6 +103,32 @@ body {
     margin-bottom: 40px;
     background: none;
 }
+
+/* Efeito redondo no lado direito */
+.navigation ul li:not(:first-child):hover::before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border-bottom-right-radius: 20px;
+    box-shadow: 7.5px 7.5px 0 7.5px #fff;
+}
+
+.navigation ul li:not(:first-child):hover::after {
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border-top-right-radius: 20px;
+    box-shadow: 7.5px -7.5px 0 7.5px #fff;
+}
+/* Efeito redondo no lado direito */
 
 .navigation ul li a {
     position: relative;

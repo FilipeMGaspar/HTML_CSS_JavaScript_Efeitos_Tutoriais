@@ -19,7 +19,7 @@ body {
    /*  width: 80px; */
    width: 300px;
     border-left: 10px solid #287bff;
-    border-radius: 50px;
+    border-radius: 20px;
     overflow: hidden;
     box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.05);
 }

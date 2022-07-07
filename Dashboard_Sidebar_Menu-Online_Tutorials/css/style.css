@@ -91,6 +91,10 @@ body {
    /* background: #fff; */
  }
 
+.navigation ul li:hover {
+    background: #fff;
+}
+
  .navigation ul li a {
     position: relative;
     display: block;
@@ -99,3 +103,7 @@ body {
     text-decoration: none;
     color: #fff;
  }
+
+ .navigation ul li:hover:not(:first-child) a {
+    color: #222;
+}

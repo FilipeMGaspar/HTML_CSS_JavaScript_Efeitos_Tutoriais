@@ -46,4 +46,18 @@ body {
     height: 3px;
     border-radius: 3px;
     background: #365fa1;
+    transform: translateY(-5px);
+    transition: 1s;
+}
+
+.toggle::after 
+{
+    content: '';
+    position: absolute;
+    width: 26px;
+    height: 3px;
+    border-radius: 3px;
+    background: #365fa1;
+    transform: translateY(5px);
+    transition: 1s;
 }

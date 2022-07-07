@@ -77,4 +77,7 @@ body {
     transform: translateY(0px) rotate(225deg);
  }
 
- 
+ .navigation ul {
+    position: absolute;
+    
+ }

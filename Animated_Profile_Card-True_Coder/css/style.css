@@ -116,8 +116,21 @@ body{
 }
 
 .main .image {
+    position: relative;
     width: 110px;
     height: 110px;
     border-radius: 50%;
     background: url("../img/img1.jpg") no-repeat center / cover;
+    border: 4px solid #00d8fe;
+    margin-bottom: 2px;
+    overflow: hidden;
+}
+
+.image .hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background:rgba(79, 172, 254, 0.7);
 }

@@ -421,4 +421,24 @@ body{
     .text {
         font-size: 0.8rem;
     }
+
+    .icons-container{
+        padding: 0.5rem 0;
+    }
+
+    .icon {
+        font-size: 1.1rem;
+    }
+
+    .follow {
+        padding: 7.6px 0;
+        border-radius: 14.6px;
+        font-size: 0.6rem;
+    }
+
+    .share {
+        padding: 5.6px 0;
+        border-radius: 14.6px;
+        font-size: 0.6rem;
+    }
 }

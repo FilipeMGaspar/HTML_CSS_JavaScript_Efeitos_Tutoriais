@@ -355,6 +355,10 @@ body{
     }
 
     .right {
-        
+        flex-direction: row;
+        text-align: center;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0;
     }
 }

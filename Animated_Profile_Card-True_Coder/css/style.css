@@ -306,6 +306,11 @@ body{
     z-index: 99;
 }
 
+.modal.show img {
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+}
+
 .close {
     position: absolute;
     top: 1rem;

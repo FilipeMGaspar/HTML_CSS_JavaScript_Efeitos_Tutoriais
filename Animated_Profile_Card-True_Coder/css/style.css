@@ -22,7 +22,7 @@ body{
 .card {
     position: relative;
     width: 400px;
-    height: 500px;
+   /* height: 500px; */
     background: #fff;
     border-radius: 5px;
     box-shadow: 0 5px 15px 1px rgba(0, 0, 0, 0.1);
@@ -142,3 +142,21 @@ body{
     opacity: 0;
 }
 
+.image:hover .hover {
+    opacity: 1;
+}
+
+.name {
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1;
+    margin: 5px 0;
+}
+
+.sub-name {
+    font-family: 'Cutive Mono', monospace;
+    font-size: 1.2rem;
+    opacity: 0.8;
+    color: #fff;
+}

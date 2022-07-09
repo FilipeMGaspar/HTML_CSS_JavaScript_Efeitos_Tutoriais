@@ -199,6 +199,7 @@ body{
     font-size: 1.1rem;
     padding: 0 0 3px 0;
     margin-bottom: 0.9rem;
+    display: inline-block;
 }
 
 .title::after {
@@ -209,5 +210,27 @@ body{
     background: #555;
     bottom: 0;
     left: 0;
-    
+
+}
+
+.text {
+    color: #666;
+    font-weight: 300;
+    line-height: 1.7;
+}
+
+.icons-container {
+    padding:  1rem 0;
+}
+
+.icon {
+    color: #c4c4c4;
+    font-size: 1.3rem;
+    text-decoration: none;
+    margin-right: 8px;
+    transition: 0.3s;
+}
+
+.icon:hover {
+    color: #4facfe;
 }

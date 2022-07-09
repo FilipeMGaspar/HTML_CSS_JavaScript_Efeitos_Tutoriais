@@ -245,4 +245,13 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 0.5s;
+}
+
+.follow-wrap:hover, .share-wrap:hover {
+    flex: 5;
+}
+
+.follow{
+    
 }

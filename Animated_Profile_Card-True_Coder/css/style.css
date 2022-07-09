@@ -347,3 +347,14 @@ body{
 .close::after {
     transform: translate(-50%, -50%) rotate(135deg);
 }
+
+/* Responsividade Mobile */
+@media (max-width: 410px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .right {
+        
+    }
+}

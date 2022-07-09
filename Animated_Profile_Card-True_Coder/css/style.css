@@ -114,3 +114,10 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+.main .image {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background: url() no-repeat center / cover;
+}

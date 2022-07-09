@@ -133,4 +133,9 @@ body{
     top: 0;
     left: 0;
     background:rgba(79, 172, 254, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
 }

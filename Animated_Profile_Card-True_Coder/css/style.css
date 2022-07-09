@@ -23,6 +23,7 @@ body{
     background: #fff;
     border-radius: 5px;
     box-shadow: 0 5px 15px 1px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
 }
 
 .card::before {
@@ -32,5 +33,6 @@ body{
     height: 270px;
     top: 0;
     left: 0;
-    background-image: linear-gradient(to top, #00f2fe, #4facfe);;
+    background-image: linear-gradient(to top, #00f2fe, #4facfe);
+    clip-path: circle(400px at 50% -48.5%);
 }

@@ -92,3 +92,7 @@ body {
 .sm a:hover {
     color: #e66767;
 }
+
+.contact-btn {
+    display: inline-block;
+}

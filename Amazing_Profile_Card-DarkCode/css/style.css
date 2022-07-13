@@ -12,4 +12,8 @@ body {
     height: 100vh;
     background: url("../img/fundo.jpg") no-repeat center;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+

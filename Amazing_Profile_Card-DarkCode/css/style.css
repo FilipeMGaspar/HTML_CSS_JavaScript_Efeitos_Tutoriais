@@ -17,3 +17,14 @@ body {
     justify-content: center;
 }
 
+.profile-card {
+    width: 400px;
+    text-align: center;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card-header {
+    background: #2c3a47;
+    padding: 60px 40px;
+}

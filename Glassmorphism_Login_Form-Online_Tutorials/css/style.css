@@ -114,3 +114,15 @@ section .color:nth-child(3) {
     color: #fff;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
 }
+
+.form  .inputBox input::placeholder {
+    color: #fff;
+}
+
+.form  .inputBox input[type="submit"] {
+    background: #fff;
+    max-width: 100px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-weight: 600;
+}

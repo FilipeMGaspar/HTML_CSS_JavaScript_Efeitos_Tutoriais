@@ -129,5 +129,11 @@ section .color:nth-child(3) {
 }
 
 .forget {
-    
+    margin-top: 5px;
+    color: rgb(158, 158, 158);
+}
+
+.forget a {
+    color: rgb(158, 158, 158);
+    font-weight: 600;
 }

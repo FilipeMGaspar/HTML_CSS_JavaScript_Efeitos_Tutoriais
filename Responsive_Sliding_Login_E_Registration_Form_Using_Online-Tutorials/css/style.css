@@ -105,10 +105,12 @@ body.active {
 
 .formBx .signupForm {
     left: 100%;
+    transition-delay: 0s;
 }
 
 .formBx.active .signupForm {
     left: 0;
+    transition-delay: 0.25s;
 }
 
 .formBx .form form {
@@ -142,6 +144,10 @@ body.active {
     border-radius: 8px;
 }
 
-.formBx .form form .forgot {
+.formBx.active .signupForm input[type="submit"] {
+    background: #f43648;
+}
+
+.formBx .form form .forgot  {
     color: #333;
 }

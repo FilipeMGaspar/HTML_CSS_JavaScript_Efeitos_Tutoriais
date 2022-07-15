@@ -16,6 +16,10 @@ body {
     transition: 0.5s;
 }
 
+body.active {
+    background: #f43648;
+}
+
 .container {
     position: relative;
     width: 800px;

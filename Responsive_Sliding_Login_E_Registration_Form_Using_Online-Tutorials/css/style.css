@@ -20,9 +20,11 @@ body {
     position: relative;
     width: 800px;
     height: 500px;
-    background: #ff0;
 }
 
 .blueBg{
-    
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.2);
 }

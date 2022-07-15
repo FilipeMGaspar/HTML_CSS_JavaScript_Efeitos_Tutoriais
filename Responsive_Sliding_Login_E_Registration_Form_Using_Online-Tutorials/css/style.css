@@ -151,3 +151,23 @@ body.active {
 .formBx .form form .forgot  {
     color: #333;
 }
+
+/* Mobile Responsividade */
+@media (max-width: 991px) {
+    .container {
+        max-width: 400px;
+        height: 650px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container .blueBg {
+        top: 0;
+        height: 500px;
+    }
+
+    .formBx {
+        width: 100%;
+    }
+}

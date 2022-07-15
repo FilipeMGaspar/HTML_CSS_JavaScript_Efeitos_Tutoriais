@@ -103,6 +103,14 @@ body.active {
     transition-delay: 0s;
 }
 
+.formBx .signupForm {
+    left: 100%;
+}
+
+.formBx.active .signupForm {
+    left: 0;
+}
+
 .formBx .form form {
     width: 100%;
     display: flex;

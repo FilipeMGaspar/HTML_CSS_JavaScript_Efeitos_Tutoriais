@@ -5,3 +5,7 @@ const formBx = document.querySelector(".formBx")
 signupBtn.onclick = function() {
     formBx.classList.add('active')
 }
+
+signinBtn.onclick = function() {
+    formBx.classList.remove('active')
+}

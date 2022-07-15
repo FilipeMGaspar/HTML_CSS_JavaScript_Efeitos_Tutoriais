@@ -27,4 +27,5 @@ body {
     top: 40px;
     width: 100%;
     background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 5px 45px rgba(0, 0, 0, 0.15);
 }

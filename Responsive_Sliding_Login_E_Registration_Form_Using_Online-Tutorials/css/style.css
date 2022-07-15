@@ -150,6 +150,13 @@ body.active {
 
 .formBx .form form .forgot  {
     color: #333;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+}
+
+.formBx .form form .forgot:hover {
+    color: rgb(46, 46, 46);
+    text-decoration: underline;
 }
 
 /* Mobile Responsividade */

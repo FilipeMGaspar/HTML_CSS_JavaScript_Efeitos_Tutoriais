@@ -187,5 +187,6 @@ body.active {
 
     .formBx.active {
         left: 0;
+        top: 150px;
     }
 }

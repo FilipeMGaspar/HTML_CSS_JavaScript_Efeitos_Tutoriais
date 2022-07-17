@@ -94,5 +94,12 @@ section::after {
 }
 
 .container .row100 .col .inputBox input {
-    
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    font-size: 15px;
+    padding: 0 10px;
+    z-index: 1;
 }

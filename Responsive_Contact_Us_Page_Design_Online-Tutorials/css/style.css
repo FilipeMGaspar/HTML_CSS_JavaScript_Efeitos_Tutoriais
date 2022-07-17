@@ -182,4 +182,8 @@ section::after {
     section::before {
         transform: translate(220px, 180px);
     }
+
+    .container {
+        padding: 20px;
+    }
 }

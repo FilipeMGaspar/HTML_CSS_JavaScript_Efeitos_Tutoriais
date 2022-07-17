@@ -175,5 +175,11 @@ section::after {
 
 /* Mobile Responsividade */
 @media (max-width: 768px) {
-    
+    section::before {
+        transform: translate(-200px, -180px);
+    }
+
+    section::before {
+        transform: translate(220px, 180px);
+    }
 }

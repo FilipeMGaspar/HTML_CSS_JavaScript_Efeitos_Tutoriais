@@ -121,7 +121,9 @@ section::after {
 }
 
 .container .row100 .col .inputBox input:focus + .text,
-.container .row100 .col .inputBox input:valid + .text {
+.container .row100 .col .inputBox input:valid + .text,
+.container .row100 .col .inputBox textarea:focus + .text,
+.container .row100 .col .inputBox textarea:valid + .text {
     top: -35px;
     left: -10px;
 }

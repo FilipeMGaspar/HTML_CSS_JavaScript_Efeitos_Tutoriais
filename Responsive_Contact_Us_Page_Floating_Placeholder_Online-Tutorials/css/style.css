@@ -67,6 +67,22 @@ section::before {
     align-items: center;
 }
 
+.container .contactInfo ul.info li span:nth-child(1) {
+    width: 30px;
+    min-height: 30px;
+}
+
+.container .contactInfo ul.info li span:nth-child(1) img {
+    max-width: 100%;
+    filter: invert(1);
+}
+
+.container .contactInfo ul.info li span:nth-child(2) {
+    color: #fff;
+    margin-left: 15px;
+    font-weight: 300;
+}
+
 .container .contactForm {
     position: absolute;
     padding: 70px 50px;

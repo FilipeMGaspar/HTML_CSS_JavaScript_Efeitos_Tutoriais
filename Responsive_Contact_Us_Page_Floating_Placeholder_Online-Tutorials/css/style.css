@@ -6,3 +6,13 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #095a55;
+}
+
+section

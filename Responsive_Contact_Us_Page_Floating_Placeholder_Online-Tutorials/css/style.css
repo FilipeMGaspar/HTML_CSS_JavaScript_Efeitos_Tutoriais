@@ -86,11 +86,12 @@ section::before {
 .container .contactInfo ul.sci {
     position: relative;
     display: flex;
+    justify-content: center;
 }
 
 .container .contactInfo ul.sci li {
     list-style: none;
-    margin-right: 15px;
+    margin-right: 20px; 
 }
 
 .container .contactInfo ul.sci li a {

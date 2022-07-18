@@ -99,7 +99,12 @@ section::before {
 
 .container .contactInfo ul.sci li a img {
     filter: invert(1);
+    transition: 0.5s ease-in-out;
 }
+
+.container .contactInfo ul.sci li a img:hover {
+    filter: drop-shadow(5px 3px 2px #fff38e);
+} 
 
 .container .contactForm {
     position: absolute;

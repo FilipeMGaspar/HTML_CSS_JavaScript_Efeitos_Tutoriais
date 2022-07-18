@@ -58,6 +58,15 @@ section::before {
     margin: 20px 0;
 }
 
+.container .contactInfo ul.info li {
+    position: relative;
+    list-style: none;
+    display: flex;
+    margin: 20px 0;
+    cursor: pointer;
+    align-items: center;
+}
+
 .container .contactForm {
     position: absolute;
     padding: 70px 50px;

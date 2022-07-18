@@ -84,7 +84,21 @@ section::before {
 }
 
 .container .contactInfo ul.sci {
+    position: relative;
+    display: flex;
+}
 
+.container .contactInfo ul.sci li {
+    list-style: none;
+    margin-right: 15px;
+}
+
+.container .contactInfo ul.sci li a {
+    text-decoration: none;
+}
+
+.container .contactInfo ul.sci li a img {
+    filter: invert(1);
 }
 
 .container .contactForm {

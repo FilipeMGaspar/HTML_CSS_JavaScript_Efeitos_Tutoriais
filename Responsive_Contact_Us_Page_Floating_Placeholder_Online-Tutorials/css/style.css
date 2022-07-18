@@ -47,6 +47,17 @@ section::before {
     box-shadow: 0 20px 25px rgba(0, 0, 0, 0.15);
 }
 
+.container .contactInfo h2 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.container .contactInfo ul.info {
+    position: relative;
+    margin: 20px 0;
+}
+
 .container .contactForm {
     position: absolute;
     padding: 70px 50px;

@@ -122,18 +122,17 @@ section::before {
     color: #0f3959;
     font-size: 24px;
     font-weight: 500;
-    padding-bottom: 30px;
+    /*padding-bottom: 30px;*/
 }
 
 .container .contactForm .formBox {
     position: relative;    
     display: flex;
-    /*
     justify-content: space-between; 
-    flex-direction: row;
-    flex-wrap: nowrap;*/
+    flex-wrap: wrap;
+    padding-top: 30px;
 }
-
+/*
 .container .contactForm .formBox .inputBox {
     position: relative;
     margin-bottom: 15px;

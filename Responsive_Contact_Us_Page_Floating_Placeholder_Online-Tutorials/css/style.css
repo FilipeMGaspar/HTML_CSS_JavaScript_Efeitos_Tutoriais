@@ -131,6 +131,7 @@ section::before {
     flex-wrap: wrap;
     padding-top: 30px;
 }
+
 /*
 .container .contactForm .formBox .inputBox {
     position: relative;

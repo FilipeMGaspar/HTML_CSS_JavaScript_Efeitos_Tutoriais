@@ -133,5 +133,14 @@ section::before {
 }
 
 .container .contactForm .formBox .inputBox {
-    
+    position: relative;
+    margin-bottom: 35px;
+}
+
+.container .contactForm .formBox .inputBox.w50 {
+    width: 47%;
+}
+
+.container .contactForm .formBox .inputBox.w100 {
+    width: 100%;
 }

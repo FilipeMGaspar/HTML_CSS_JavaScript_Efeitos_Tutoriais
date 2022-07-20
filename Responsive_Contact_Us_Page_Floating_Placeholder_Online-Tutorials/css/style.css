@@ -185,5 +185,15 @@ section::before {
 }
 
 .container .contactForm .formBox .inputBox input[type="submit"] {
+    position: relative;
+    cursor: pointer;
+    background: #095a55;
+    color: #fff;
+    max-height: 150px;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.container .contactForm .formBox .inputBox input[type="submit"]:hover {
     
 }

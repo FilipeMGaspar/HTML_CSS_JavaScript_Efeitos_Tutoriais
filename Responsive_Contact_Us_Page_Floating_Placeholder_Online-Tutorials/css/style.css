@@ -134,7 +134,7 @@ section::before {
 
 .container .contactForm .formBox .inputBox {
     position: relative;
-    margin-bottom: 15px;
+    margin-bottom: 35px;
 }
 
 .container .contactForm .formBox .inputBox.w50 {
@@ -184,7 +184,8 @@ section::before {
 }
 
 .container .contactForm .formBox .inputBox input[type="submit"] {
-    margin-top: 85px;
+    margin-top: 10px;
+    margin-left: 25px;
     position: relative;
     cursor: pointer;
     background: #095a55;

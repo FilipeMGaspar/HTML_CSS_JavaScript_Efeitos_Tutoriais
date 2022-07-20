@@ -122,6 +122,7 @@ section::before {
     color: #0f3959;
     font-size: 24px;
     font-weight: 500;
+    padding-bottom: 30px;
 }
 
 .container .contactForm .formBox {
@@ -192,6 +193,7 @@ section::before {
     max-height: 150px;
     padding: 12px;
     border-radius: 5px;
+    border-bottom: none;
 }
 
 .container .contactForm .formBox .inputBox input[type="submit"]:hover {

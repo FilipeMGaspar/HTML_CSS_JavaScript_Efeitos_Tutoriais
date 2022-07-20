@@ -128,9 +128,10 @@ section::before {
 .container .contactForm .formBox {
     position: relative;    
     display: flex;
+    /*
     justify-content: space-between; 
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;*/
 }
 
 .container .contactForm .formBox .inputBox {
@@ -161,7 +162,7 @@ section::before {
 }
 
 .container .contactForm .formBox .inputBox textarea {
-    height: 120px;
+    height: 100px;
 }
 
 .container .contactForm .formBox .inputBox span {
@@ -186,11 +187,12 @@ section::before {
 }
 
 .container .contactForm .formBox .inputBox input[type="submit"] {
+    margin-top: 50px;
     position: relative;
     cursor: pointer;
     background: #095a55;
     color: #fff;
-    max-height: 150px;
+    max-width: 150px;
     padding: 12px;
     border-radius: 5px;
     border-bottom: none;

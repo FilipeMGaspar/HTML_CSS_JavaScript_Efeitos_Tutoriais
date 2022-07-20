@@ -132,7 +132,6 @@ section::before {
     padding-top: 30px;
 }
 
-/*
 .container .contactForm .formBox .inputBox {
     position: relative;
     margin-bottom: 15px;
@@ -161,7 +160,7 @@ section::before {
 }
 
 .container .contactForm .formBox .inputBox textarea {
-    height: 100px;
+    height: 120px;
 }
 
 .container .contactForm .formBox .inputBox span {
@@ -186,7 +185,7 @@ section::before {
 }
 
 .container .contactForm .formBox .inputBox input[type="submit"] {
-    margin-top: 50px;
+    margin-top: 85px;
     position: relative;
     cursor: pointer;
     background: #095a55;
@@ -201,7 +200,7 @@ section::before {
     background: #0d948b;
 }
 
-/* Mobile / Modo Responsivo *//*
+/* Mobile / Modo Responsivo */
 @media (max-width: 1200px) {
     .container {
         width: 90%;

@@ -224,16 +224,10 @@ section::before {
         display: none;
     }
 
-    .container {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
     .contactInfo {
         top: 0;
         height: 550px;
         max-width: 300px;
-        width: auto;
         position: relative;
         box-shadow: none;
     }
@@ -242,7 +236,7 @@ section::before {
         position: relative;
         width: calc(100% - 300px);
         padding-left: 0;
-        margin-left: 300px;
+        margin-left: 275px;
         padding: 40px;
         height: 550px;
         box-shadow: none;

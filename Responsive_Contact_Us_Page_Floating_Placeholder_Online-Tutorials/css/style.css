@@ -265,6 +265,7 @@ section::before {
     .container .contactInfo {
         position: relative;
         width: 100%;
+        height: auto;
         flex-direction: row;
         padding: 35px;
     }

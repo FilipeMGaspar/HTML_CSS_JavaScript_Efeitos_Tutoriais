@@ -290,4 +290,12 @@ section::before {
         flex-direction: column;
         align-items: flex-start;
     }
+
+    .container .contactInfo ul.sci {
+        margin-top: 40px;
+    }
+
+    .container .contactForm .formBox .inputBox.w50 {
+        width: 100%;
+    }
 }

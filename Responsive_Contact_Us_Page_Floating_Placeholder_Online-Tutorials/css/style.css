@@ -185,7 +185,7 @@ section::before {
 
 .container .contactForm .formBox .inputBox input[type="submit"] {
     margin-top: 10px;
-    margin-left: 25px;
+    margin-left: 250px;
     position: relative;
     cursor: pointer;
     background: #095a55;
@@ -229,5 +229,5 @@ section::before {
 }
 
 @media (max-width: 991px) {
-
+    
 }

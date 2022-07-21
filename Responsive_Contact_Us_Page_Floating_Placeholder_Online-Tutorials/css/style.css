@@ -185,7 +185,7 @@ section::before {
 
 .container .contactForm .formBox .inputBox input[type="submit"] {
     margin-top: 10px;
-    margin-left: 250px;
+    margin-left: 15px;
     position: relative;
     cursor: pointer;
     background: #095a55;
@@ -207,10 +207,6 @@ section::before {
         min-width: auto;
         margin: 20px;
         box-shadow: rgba(0, 0, 0, 0.2);
-    }
-
-    .container .contactForm .formBox .inputBox input[type="submit"] {
-        margin-left: 150px;
     }
 }
 
@@ -268,11 +264,19 @@ section::before {
     .container .contactInfo {
         position: relative;
         width: 100%;
-        align-items: center;
-        justify-content: center;
+        flex-direction: row;
     }
 
-    .container .contactForm .formBox .inputBox input[type="submit"] {
-        margin-left: 320px;
+    .container .contactInfo ul.sci {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
+
+}
+
+
+@media (max-width: 600px) {
+    
 }

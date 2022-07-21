@@ -259,12 +259,14 @@ section::before {
         margin-left: 0;
         width: 100%;
         height: auto;
+        padding: 35px;
     }
 
     .container .contactInfo {
         position: relative;
         width: 100%;
         flex-direction: row;
+        padding: 35px;
     }
 
     .container .contactInfo ul.sci {
@@ -278,5 +280,11 @@ section::before {
 
 
 @media (max-width: 600px) {
-    
+    .container .contactForm {
+        padding: 25px;
+    }
+
+    .container .contactInfo {
+        padding: 25px;
+    }
 }

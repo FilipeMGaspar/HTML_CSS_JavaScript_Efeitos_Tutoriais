@@ -111,3 +111,14 @@ body {
     min-height: 220px;
     margin-bottom: 10px;
 }
+
+.inputBox input[type="submit"] {
+    background: #ff578b;
+    color: #fff;
+    border: none;
+    font-size: 1.1em;
+    max-width: 120px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 14px 15px;
+}

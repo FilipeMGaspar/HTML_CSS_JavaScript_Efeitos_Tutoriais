@@ -103,5 +103,8 @@ body {
 }
 
 .inputBox textarea {
-    
+    padding: 10px;
+    font-size: 1.1em;
+    outline: none;
+    border: 1px solid #333;
 }

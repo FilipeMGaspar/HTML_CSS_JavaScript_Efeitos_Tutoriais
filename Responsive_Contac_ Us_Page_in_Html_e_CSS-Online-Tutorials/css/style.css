@@ -65,3 +65,18 @@ body {
     font-size: 1.4em;
     margin-bottom: 10px;
 }
+
+/* Formulário */
+.formBox {
+    position: relative;
+    width: 100%;
+}
+
+.formBox .row50 {
+    display: flex;
+    gap: 20px;
+}
+
+.inputBox {
+    
+}

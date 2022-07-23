@@ -12,5 +12,11 @@ body {
 }
 
 .contacUs {
+    position: relative;
+    width: 100%;
+    padding: 40px 100px;
+}
+
+.contacUs .title {
     
 }

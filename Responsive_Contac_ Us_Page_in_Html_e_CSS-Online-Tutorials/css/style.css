@@ -27,20 +27,24 @@ body {
 .contacUs .title h2 {
     color: #fff;
     font-weight: 500;
- }
+}
 
- .box {
-    position: relative;
- }
-
- .form {
+.form {
     grid-area: form;
- }
+}
 
- .info {
+.info {
     grid-area: info;
- }
+}
 
- .map {
+.map {
     grid-area: map;
- }
+}
+
+.contact {
+    
+}
+
+.box {
+    position: relative;
+}

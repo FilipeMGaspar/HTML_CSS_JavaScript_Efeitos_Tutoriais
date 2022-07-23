@@ -60,5 +60,8 @@ body {
 }
 
 .contact h3 {
-    
+    color: #0e3959;
+    font-weight: 500;
+    font-size: 1.4em;
+    margin-bottom: 10px;
 }

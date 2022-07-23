@@ -113,7 +113,7 @@ body {
 }
 
 .inputBox input[type="submit"] {
-    background: #f72c6c;
+    background: #f53f78;
     color: #fff;
     border: none;
     font-size: 1.1em;
@@ -126,4 +126,8 @@ body {
 
 .inputBox input[type="submit"]:hover {
     background: #ff578b;
+}
+
+.inputBox ::placeholder {
+    color: rgb(124, 124, 124);
 }

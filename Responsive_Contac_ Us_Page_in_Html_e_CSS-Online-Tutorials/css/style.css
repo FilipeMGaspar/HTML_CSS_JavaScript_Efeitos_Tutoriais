@@ -28,3 +28,19 @@ body {
     color: #fff;
     font-weight: 500;
  }
+
+ .box {
+    position: relative;
+ }
+
+ .form {
+    grid-area: form;
+ }
+
+ .info {
+    grid-area: info;
+ }
+
+ .map {
+    grid-area: map;
+ }

@@ -227,4 +227,18 @@ body {
     .map {
         min-height: 300px;
     }
+
+    .formBox .row50 {
+        display: flex;
+        gap: 0;
+        flex-direction: column;
+    }
+
+    .formBox .inputBox {
+        width: 100%;
+    }
+
+    .contact {
+        padding: 30px;
+    }
 }

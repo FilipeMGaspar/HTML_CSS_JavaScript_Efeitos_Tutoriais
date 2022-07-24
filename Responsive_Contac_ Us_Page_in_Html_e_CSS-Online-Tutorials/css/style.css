@@ -223,4 +223,8 @@ body {
             "info"
             "map";
     }
+
+    .map {
+        min-height: 300px;
+    }
 }

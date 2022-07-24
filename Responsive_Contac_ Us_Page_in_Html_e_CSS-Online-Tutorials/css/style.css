@@ -141,6 +141,8 @@ body {
     color: #fff;
 }
 
-.info .infoBox {
-    
+.info .infoBox div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
 }

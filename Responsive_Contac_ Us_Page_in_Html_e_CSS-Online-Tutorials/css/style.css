@@ -146,3 +146,14 @@ body {
     align-items: center;
     margin-bottom: 10px;
 }
+
+.info .infoBox div span {
+    min-width: 40px;
+    height: 40px;
+    color: #fff;
+    background: #18b7ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

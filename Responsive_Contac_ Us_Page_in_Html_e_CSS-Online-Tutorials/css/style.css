@@ -162,5 +162,9 @@ body {
 
 .info .infoBox div p {
     color: #fff;
+}
+
+.info .infoBox div a {
+    color: #fff;
     text-decoration: none;
 }

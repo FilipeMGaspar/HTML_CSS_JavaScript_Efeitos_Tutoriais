@@ -241,4 +241,9 @@ body {
     .contact {
         padding: 30px;
     }
+
+    .map {
+        min-height: 300px;
+        padding: 0;
+    }
 }

@@ -162,9 +162,33 @@ body {
 
 .info .infoBox div p {
     color: #fff;
+    font-size: 1.1em;
 }
 
 .info .infoBox div a {
     color: #fff;
     text-decoration: none;
+    font-size: 1.1em;
+}
+
+.sci {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.sci li {
+    list-style: none;
+    margin-right: 25px;
+}
+
+.sci li a {
+    color: #fff;
+    font-size: 2em;
+    text-decoration: none;
+    color: #ccc;
+}
+
+.sci li a:hover {
+    color: #fff;
 }

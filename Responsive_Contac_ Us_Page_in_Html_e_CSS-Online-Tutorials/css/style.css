@@ -131,3 +131,16 @@ body {
 .inputBox ::placeholder {
     color: rgb(124, 124, 124);
 }
+
+/* Info Box */
+.info {
+    background: #0e3959;
+}
+
+.info h3 {
+    color: #fff;
+}
+
+.info .infoBox {
+    
+}

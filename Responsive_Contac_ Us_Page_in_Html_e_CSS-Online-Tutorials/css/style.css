@@ -192,3 +192,8 @@ body {
 .sci li a:hover {
     color: #fff;
 }
+
+/* Mapa */
+.map {
+    padding: 0;
+}

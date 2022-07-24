@@ -108,7 +108,7 @@ body {
     outline: none;
     border: 1px solid #333;
     resize: none;
-    min-height: 220px;
+    min-height: 200px;
     margin-bottom: 10px;
 }
 
@@ -207,5 +207,20 @@ body {
 @media (max-width: 991px) {
     body {
         background: #03a9f5;
+    }
+
+    .contacUs {
+        padding: 20px;
+    }
+
+    .box {
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+            "form"
+            "info"
+            "map";
     }
 }

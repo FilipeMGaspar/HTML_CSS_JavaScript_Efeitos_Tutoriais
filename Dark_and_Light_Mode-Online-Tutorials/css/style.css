@@ -116,3 +116,13 @@ section .card .sci li a::before {
 section .card .sci li a:hover::before {
     transform: scale(1);
 }
+
+.toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}

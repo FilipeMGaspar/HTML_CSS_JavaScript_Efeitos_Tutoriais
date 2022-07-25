@@ -160,7 +160,7 @@ section.dark .toggle { /* Dark Mode */
     color: #2fa1ff;
 }
 
-/* Dark Mode */
-section.dark .toggle::before {
+section.dark .toggle::before { /* Dark Mode */
     content: '\f185';
+    color: #fff;
 }

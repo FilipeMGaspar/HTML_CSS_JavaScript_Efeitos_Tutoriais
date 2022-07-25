@@ -150,6 +150,10 @@ section .card .sci li a:hover::before {
     cursor: pointer;
 }
 
+section.dark .toggle { /* Dark Mode */
+    background: #404852;
+}
+
 .toggle::before {
     content: '\f186';
     font-family: fontAwesome;

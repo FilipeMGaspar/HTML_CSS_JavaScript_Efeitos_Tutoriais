@@ -53,3 +53,15 @@ section .card .imgText .imgBx img {
     height: 100%;
     object-fit: cover;
 }
+
+section .card .imgText h3 {
+    font-weight: 500;
+    font-size: 1.4em;
+    line-height: 1.2em;
+    text-align: center;
+    color: #2fa1ff;
+}
+
+section .card .imgText h3 span {
+    
+}

@@ -90,6 +90,11 @@ section .card .sci li a {
     text-decoration: none;
     border-radius: 50%;
     font-size: 20px;
+    transition: 0.5s;
+}
+
+section .card .sci li a:hover {
+    color: #fff;
 }
 
 section .card .sci li a .fa-brands {
@@ -109,5 +114,5 @@ section .card .sci li a::before {
 }
 
 section .card .sci li a:hover::before {
-    
+    transform: scale(1);
 }

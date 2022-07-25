@@ -63,5 +63,11 @@ section .card .imgText h3 {
 }
 
 section .card .imgText h3 span {
-    
+    font-weight: 400;
+    color: #777;
+    font-size: 0.75em;
+}
+
+section .card .sci {
+    display:  flex;
 }

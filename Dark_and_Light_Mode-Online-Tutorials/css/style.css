@@ -14,6 +14,12 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: background 0.5s;
+}
+
+
+section.dark { /* Dark Mode */
+    background: #24292d;
 }
 
 section .card {
@@ -26,6 +32,11 @@ section .card {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: background 0.5s;
+}
+
+section.dark .card { /* Dark mode */
+    background: #323840;
 }
 
 section .card .content,
@@ -68,6 +79,10 @@ section .card .imgText h3 span {
     font-size: 0.75em;
 }
 
+section.dark .card .imgText h3 span { /* Dark Mode */
+    color: #ccc;
+}
+
 section .card .sci {
     display:  flex;
     margin-top: 15px;
@@ -91,6 +106,10 @@ section .card .sci li a {
     border-radius: 50%;
     font-size: 20px;
     transition: 0.5s;
+}
+
+section.dark section .card .sci li a {
+    
 }
 
 section .card .sci li a:hover {
@@ -135,4 +154,9 @@ section .card .sci li a:hover::before {
     content: '\f186';
     font-family: fontAwesome;
     color: #2fa1ff;
+}
+
+/* Dark Mode */
+section.dark .toggle::before {
+    content: '\f185';
 }

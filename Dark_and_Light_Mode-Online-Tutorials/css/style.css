@@ -108,8 +108,8 @@ section .card .sci li a {
     transition: 0.5s;
 }
 
-section.dark section .card .sci li a {
-    
+section.dark .card .sci li a {
+    background: #404852;
 }
 
 section .card .sci li a:hover {

@@ -135,5 +135,28 @@ a {
 }
 
 label {
+    display: block;
+    position: relative;
+    margin-left: 30px;
+}
+
+label::before {
+    content: '\f00c';
+    position: absolute;
+    font-family: FontAwesome;
+    background: transparent;
+    left: -30px;
+    background: #8534dd;
+}
+
+label:hover::before  {
+    font-family: FontAwesome;
+    content: '\f00c';
+    color: #fff;
+    cursor: pointer;
+    background: #8534dd;
+}
+
+label span.text-checkbox {
     
 }

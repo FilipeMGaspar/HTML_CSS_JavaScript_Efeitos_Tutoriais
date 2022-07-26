@@ -37,3 +37,9 @@ a {
     height: auto;
 }
 
+.box-form .left {
+    color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url();
+}

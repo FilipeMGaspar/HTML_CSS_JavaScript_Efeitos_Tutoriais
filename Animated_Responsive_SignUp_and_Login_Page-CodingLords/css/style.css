@@ -5,3 +5,20 @@ body {
     font-family: 'Open-Sans', sans-serif;
 }
 
+.box-form {
+    margin: 10vh, auto;
+    width: 60vw;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex: 1 1 100%;
+    align-items: stretch;
+    justify-content: space-between;
+    box-shadow: 0 0 20px 6px #090b68;
+    height: 80vh;
+}
+
+a {
+    text-decoration: none;
+}

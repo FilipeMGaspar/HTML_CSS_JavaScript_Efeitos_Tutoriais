@@ -42,4 +42,17 @@ a {
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url("../image/backgroundimage.png");
+    overflow: hidden;
+}
+
+.box-form .left .ovelay {
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.box-form .left .ovelay h1 {
+    
 }

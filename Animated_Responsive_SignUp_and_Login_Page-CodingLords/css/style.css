@@ -64,3 +64,20 @@ a {
 .box-form .left .ovelay .buttn {
     margin-top: 13vh;
 }
+
+.box-form .left .ovelay .buttn a {
+    background: #3b5998;
+    color: #fff;
+    margin-top: 10px;
+    padding: 10px 40px;
+    border-radius: 100px;
+    display: inline-block;
+    box-shadow: 0 3px 6px 1px #042d4657;
+}
+
+.box-form .left .ovelay .buttn a:last-child {
+    background: #1dcaff;
+    margin-left: 0vw;
+    padding-left: 4vw;
+}
+

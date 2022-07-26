@@ -81,4 +81,37 @@ a {
     padding-left: 4vw;
 }
 
-.box-form 
+.box-form .right {
+    padding-left: 4vw;
+    overflow: hidden;
+    width: 50vw;
+    height: 100vh;
+    padding-right: 4vw;
+    padding-top: 2vh;
+}
+
+@media (max-width: 980px) {
+    .box-form .right {
+        width: 50vw;
+        height: 50vh;
+    }
+}
+
+.box-form .right h5 {
+    font-size: 2vmax;
+    line-height: 0;
+    text-align: center;
+}
+
+.box-form .right p {
+    font-size: 2vh;
+    color: #a0a30b;
+}
+
+.box-form .right .inputs {
+    overflow: hidden;
+}
+
+.box-form .right input {
+    width: 100%;
+}

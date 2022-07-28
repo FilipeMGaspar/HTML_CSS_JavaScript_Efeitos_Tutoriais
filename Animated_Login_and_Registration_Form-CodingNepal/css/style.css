@@ -59,8 +59,17 @@ html, body {
     border-bottom-width: 2px;
 }
 
+.form-inner form .field input:focus {
+    border-color: #fc83bb;
+}
+
 .form-inner form .pass-link {
     margin-top: 5px;
+}
+
+.form-inner form .signup-link {
+    text-align: center;
+    margin-top: 30px;
 }
 
 .form-inner form .pass-link a,
@@ -72,4 +81,14 @@ html, body {
 .form-inner form .pass-link a:hover,
 .form-inner form .signup-link a:hover {
     text-decoration: underline;
+}
+
+form .field input[type="submit"] {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 0px;
+    border: none;
+    cursor: pointer;
+ background: -webkit-linear-gradient(left, #a445b2, #fa4299);
 }

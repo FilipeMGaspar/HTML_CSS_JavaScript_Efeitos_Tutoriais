@@ -58,3 +58,18 @@ html, body {
     border: 1px solid lightgray;
     border-bottom-width: 2px;
 }
+
+.form-inner form .pass-link {
+    margin-top: 5px;
+}
+
+.form-inner form .pass-link a,
+.form-inner form .signup-link a {
+    color: #fa4299;
+    text-decoration: none;
+}
+
+.form-inner form .pass-link a:hover,
+.form-inner form .signup-link a:hover {
+    text-decoration: underline;
+}

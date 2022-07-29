@@ -42,6 +42,26 @@ html, body {
     overflow: hidden;
 }
 
+.form-container .slide-controls {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 30px 0 10px 0;
+    justify-content: space-between;
+    border: 1px solid lightgray;
+}
+
+.slide-controls .slide {
+    height: 100%;
+    width: 100%;
+    font-weight: 500;
+    text-align: center;
+    line-height: 48px;
+    cursor: pointer;
+}
+
 .form-container .form-inner {
     display: flex;
     width: 200%;

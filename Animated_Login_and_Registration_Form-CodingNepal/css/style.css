@@ -80,6 +80,23 @@ html, body {
     background: -webkit-linear-gradient(left, #a445b2, #fa4299);
 }
 
+input[type="radio"] {
+    display: none;
+}
+
+#signup:checked ~ .slide-tab {
+    left: 50%;
+}
+
+#signup:checked ~ .signup {
+    color: #fff;
+}
+
+#signup:checked ~ .login {
+    color: #000;
+}
+
+
 .form-container .form-inner {
     display: flex;
     width: 200%;

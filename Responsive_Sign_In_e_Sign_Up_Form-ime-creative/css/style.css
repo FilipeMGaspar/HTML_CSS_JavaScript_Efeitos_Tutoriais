@@ -91,3 +91,7 @@ form {
     margin: 10px 0;
     text-transform: uppercase;
 }
+
+.btn:hover {
+    background: #c03cc0;
+}

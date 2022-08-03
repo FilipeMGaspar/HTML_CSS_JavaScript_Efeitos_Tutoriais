@@ -34,3 +34,13 @@ body {
     align-items: center;
     justify-content: space-around;
 }
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+    min-height: 238px;
+    padding: 0 10px;
+}

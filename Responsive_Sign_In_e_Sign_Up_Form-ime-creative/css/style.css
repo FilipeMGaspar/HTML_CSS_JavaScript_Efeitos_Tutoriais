@@ -79,3 +79,15 @@ form {
     font-weight: 600;
     color: #444;
 }
+
+.btn {
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    background: #df4adf;
+    font-weight: 600;
+    margin: 10px 0;
+    text-transform: uppercase;
+}

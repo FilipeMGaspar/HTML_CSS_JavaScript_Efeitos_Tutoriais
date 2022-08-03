@@ -44,3 +44,9 @@ form {
     min-height: 238px;
     padding: 0 10px;
 }
+
+.title {
+    font-size: 35px;
+    color: #df4adf;
+    margin-bottom: 10px;
+}

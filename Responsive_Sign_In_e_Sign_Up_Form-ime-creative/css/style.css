@@ -64,8 +64,18 @@ form {
 
 .input-field i {
     flex: 1;
+    text-align: center;
+    color: #666;
+    font-size: 18px;
 }
 
 .input-field input {
     flex: 5;
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    color: #444;
 }

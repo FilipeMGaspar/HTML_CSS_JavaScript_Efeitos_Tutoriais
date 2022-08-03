@@ -58,4 +58,14 @@ form {
     margin: 10px 0;
     border: 2px solid #df4adf;
     border-radius: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.input-field i {
+    flex: 1;
+}
+
+.input-field input {
+    flex: 5;
 }

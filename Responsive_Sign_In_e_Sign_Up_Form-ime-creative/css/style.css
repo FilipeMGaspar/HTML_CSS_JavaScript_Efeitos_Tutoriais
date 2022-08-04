@@ -190,7 +190,7 @@ a {
     transform: translateX(-200%);
 }
 
-.right-panel image,
+.right-panel.image,
 .right-panel.content {
     transform: translateX(0);
 }

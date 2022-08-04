@@ -178,6 +178,10 @@ a {
     z-index: 6;
 }
 
+.left-panel {
+    pointer-events: none;
+}
+
 .content {
     color: #fff;
     transition: 1.1s ease-in-out;

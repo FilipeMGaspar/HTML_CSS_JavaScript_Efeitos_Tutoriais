@@ -22,6 +22,7 @@ body {
     background: #fff;
     border-radius: 15px;
     box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+    overflow: hidden;
 }
 
 .container::before {
@@ -180,4 +181,8 @@ a {
 
 .image {
     width: 100%;
+}
+
+.container.sign-up-mode::before {
+    transform: translateX(0);
 }

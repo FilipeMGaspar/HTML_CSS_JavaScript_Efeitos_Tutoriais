@@ -158,7 +158,22 @@ a {
     width: 35%;
     min-width: 238px;
     padding: 0 10px;
+    text-align: center;
     z-index: 6;
+}
+
+.content {
+    color: #fff;
+}
+
+.panel h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.panel p {
+    font-size: 15px;
+    padding: 10px 0;
 }
 
 .image {

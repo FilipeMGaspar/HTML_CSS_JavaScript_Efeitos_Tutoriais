@@ -60,6 +60,12 @@ form {
     padding: 0 10px;
 }
 
+form.sign-in-form {
+    opacity: 1;
+    transition: 0.5s ease-in-out;
+    transition-delay: 1S;
+}
+
 .title {
     font-size: 35px;
     color: #df4adf;
@@ -211,4 +217,12 @@ a {
 .container.sign-up-mode .left-panel .image,
 .container.sign-up-mode .left-panel .content {
     transform: translateX(0);
+}
+
+.container.sign-up-mode form.sign-in-form {
+    opacity: 0;
+}
+
+.container.sign-up-mode form.sign-up-form {
+    opacity: 1;
 }

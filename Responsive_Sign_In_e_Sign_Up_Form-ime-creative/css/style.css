@@ -149,3 +149,11 @@ a {
     align-items: center;
     justify-content: space-around;
 }
+
+.panel {
+    z-index: 6;
+}
+
+.image {
+    
+}

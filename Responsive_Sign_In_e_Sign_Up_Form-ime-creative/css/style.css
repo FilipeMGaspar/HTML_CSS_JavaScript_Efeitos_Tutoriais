@@ -236,3 +236,7 @@ a {
 .container.sign-up-mode form.sign-up-form {
     opacity: 1;
 }
+
+.container.sign-up-mode .right-panel {
+    pointer-events: none;
+}

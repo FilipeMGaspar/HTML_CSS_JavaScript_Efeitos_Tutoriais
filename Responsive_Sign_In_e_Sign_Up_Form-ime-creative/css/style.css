@@ -185,14 +185,16 @@ a {
 }
 
 /* Animação */
-.left-panel.image,
-.left-panel.content {
+.left-panel .image,
+.left-panel .content {
     transform: translateX(-200%);
+    transition: 0.7s;
 }
 
-.right-panel.image,
-.right-panel.content {
+.right-panel .image,
+.right-panel .content {
     transform: translateX(0);
+    transition: 0.7s;
 }
 
 .container.sign-up-mode::before {

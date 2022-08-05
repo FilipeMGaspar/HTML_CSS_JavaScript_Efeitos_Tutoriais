@@ -254,6 +254,7 @@ a {
 }
 
 @media (max-width: 635px) {
+
     .container::before {
         display: none;
     }
@@ -278,4 +279,5 @@ a {
    .panels-container {
     display: none;
    }
+
 }

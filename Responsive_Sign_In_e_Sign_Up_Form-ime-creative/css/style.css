@@ -253,9 +253,16 @@ a {
     }
 }
 
-@media (max-width: 779px) {
-    .container {
-        width: 10vw;
-        height: 10vh;
+@media (max-width: 635px) {
+    .container::before {
+        display: none;
     }
+
+   form.sign-up-form {
+    display: none;
+   }
+
+   .panels-container {
+    display: none;
+   }
 }

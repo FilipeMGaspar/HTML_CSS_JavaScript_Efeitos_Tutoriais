@@ -245,11 +245,15 @@ a {
     pointer-events: all;
 }
 
+.accout-text {
+    display: none;
+}
 /* Mobile / Responsividade */
 @media (max-width: 779px) {
     .container {
         width: 100vw;
         height: 100vh;
+        border-radius: 0;
     }
 }
 
@@ -280,4 +284,14 @@ a {
     display: none;
    }
 
+   .accout-text {
+        display: initial;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 320px) {
+    form {
+        width: 90%;
+    }    
 }

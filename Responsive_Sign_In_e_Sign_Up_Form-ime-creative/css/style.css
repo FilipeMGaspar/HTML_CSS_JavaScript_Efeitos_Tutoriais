@@ -266,6 +266,15 @@ a {
     display: none;
    }
 
+   .container.sign-up-mode2  form.sign-up-form {
+    display: flex;
+    opacity: 1;
+   }
+
+   .container.sign-up-mode2  form.sign-in-form {
+    display: none;
+   }
+
    .panels-container {
     display: none;
    }

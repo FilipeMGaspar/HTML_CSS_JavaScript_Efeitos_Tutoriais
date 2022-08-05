@@ -258,6 +258,10 @@ a {
         display: none;
     }
 
+    form {
+        width: 80%;
+    }
+
    form.sign-up-form {
     display: none;
    }

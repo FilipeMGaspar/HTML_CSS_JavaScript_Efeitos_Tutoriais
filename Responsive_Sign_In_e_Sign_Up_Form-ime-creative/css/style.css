@@ -248,8 +248,8 @@ a {
 /* Mobile / Responsividade */
 @media (max-width: 779px) {
     .container {
-        width: 10vw;
-        height: 10vh;
+        width: 100vw;
+        height: 100vh;
     }
 }
 

@@ -129,5 +129,34 @@ h3 {
 }
 
 .nope {
-    
+    background: #474747;
+    padding: 10px 15px;
+    border-image: 3px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    font-size: 12px;
+    white-space: nowrap;
+    cursor: pointer;
+    transform: translateX(-50%);
 }
+
+.nope:hover {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+    transform: translateX(-50%);
+}
+
+.close {
+    background: #474747;
+    height: 30px;
+    width: 30px;
+    border: 3px solid #fff;
+    border-radius: 50px;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    cursor: pointer;
+    transition: 0.4s 0.3s;
+}
+

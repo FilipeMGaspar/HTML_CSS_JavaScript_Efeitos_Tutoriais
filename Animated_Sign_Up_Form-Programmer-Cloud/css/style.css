@@ -77,3 +77,8 @@ input:-webkit-autofill {
     -webkit-text-fill-color: #fff;
 }
 
+label {
+    font: 500 14px Arial;
+    color: #fb5781;
+}
+

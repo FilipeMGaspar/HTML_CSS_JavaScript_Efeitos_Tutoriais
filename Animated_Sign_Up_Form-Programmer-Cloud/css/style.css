@@ -173,5 +173,9 @@ h3 {
 }
 
 .close::after {
-    
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.open {
+    background: linear-gradient(-45deg, #f857a6, #ff5858);
 }

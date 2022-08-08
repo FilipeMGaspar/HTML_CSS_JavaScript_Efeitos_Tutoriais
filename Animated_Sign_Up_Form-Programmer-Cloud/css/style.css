@@ -71,3 +71,9 @@ input {
     color: #fff;
     font-size: 20px;
 }
+
+input:-webkit-autofill {
+    box-shadow: 0 0 0 500px #7a7a7a inset;
+    -webkit-text-fill-color: #fff;
+}
+

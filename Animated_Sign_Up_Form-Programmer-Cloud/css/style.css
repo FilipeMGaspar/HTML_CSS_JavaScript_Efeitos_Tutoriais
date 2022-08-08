@@ -97,3 +97,20 @@ button {
     cursor: pointer;
     transform: translateX(-50%);
 }
+
+button:hover::before {
+    left: 110%;
+    transition: 0.3s;
+}
+
+button::before {
+    content: '';
+    background: rgba(255, 255, 255, 0.3);
+    height: 100%;
+    width: 65px;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    transform: skew(-45deg);
+    transition: 0;
+}

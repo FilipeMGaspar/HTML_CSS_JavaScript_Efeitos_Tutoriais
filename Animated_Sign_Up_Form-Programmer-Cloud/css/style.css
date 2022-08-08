@@ -28,5 +28,24 @@ body {
 }
 
 .modal.hidden {
-    
+    box-shadow: none;
+    transition: 0.4s, box-shadow 0;
+    opacity: 0;
+    visibility: hidden;
 }
+
+.modal.hidden .invite {
+    top: -100%;
+}
+
+.modal.hidden .form {
+    top: 100%;
+}
+
+.modal.hidden .invite  .close {
+    height: 0;
+    width: 0;
+    top: 0;
+    right: 0;
+}
+

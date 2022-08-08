@@ -7,5 +7,26 @@
 }
 
 body {
-    background: #616161 url();
+    background: #616161 url("../images/bg.jpg") center/cover no-repeat;
+    height: 100vh;
+    overflow: hidden;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.modal {
+    height: 400px;
+    width: 650px;
+    margin: auto;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: 0.4s, box-shadow 0.3s 0.4s;
+}
+
+.modal.hidden {
+    
 }

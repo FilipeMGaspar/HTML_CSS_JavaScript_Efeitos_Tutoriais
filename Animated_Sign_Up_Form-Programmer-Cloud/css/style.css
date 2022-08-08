@@ -178,4 +178,15 @@ h3 {
 
 .open {
     background: linear-gradient(-45deg, #f857a6, #ff5858);
+    height: 45px;
+    width: 150px;
+    padding: 10px 20px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 20px;
+    text-align: center;
 }

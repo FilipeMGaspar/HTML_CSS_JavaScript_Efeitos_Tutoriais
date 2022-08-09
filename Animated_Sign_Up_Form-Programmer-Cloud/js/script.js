@@ -4,3 +4,4 @@ const Close = function() {
 };
 
 document.querySelector(".close").addEventListener("click", Close);
+document.querySelector(".nope").addEventListener("click", Close);

@@ -1,0 +1,3 @@
+const Close = function() {
+    
+}

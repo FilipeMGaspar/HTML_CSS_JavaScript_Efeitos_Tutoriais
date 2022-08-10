@@ -99,3 +99,8 @@ body {
     color: #fff;
     font-weight: 500;
 }
+
+.container .card .content a:hover {
+    background: #0271c0;
+    color: aliceblue;
+} 

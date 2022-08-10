@@ -114,11 +114,12 @@ body {
     }
 
     .container .card {
-        max-width: 300px;
+        width: 300px;
         height: auto;
         flex-direction: column;
         background: transparent;
         margin: -20px 0;
+        box-shadow: none;
     }
 
     .container .card .imgBx {
@@ -147,6 +148,8 @@ body {
         width: 100%;
         background: #fff;
         box-shadow: none;
+        border-radius: 20px;
+        padding: 20px 40px 40px;
         border-top: 100px solid #fff;
     }
 }

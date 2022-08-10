@@ -64,8 +64,6 @@ body {
 }
 
 .container .card .imgBx img {
-    width: 25%;
-    height: 40%;
     max-width: 100px;
     transition: 00.5s ease-in-out;
 }
@@ -91,4 +89,13 @@ body {
     font-size: 24px;
 }
 
-.container .card .content
+.container .card .content a  {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 20px;
+    border-radius: 5px;
+    background: #0095ff;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}

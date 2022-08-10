@@ -104,3 +104,45 @@ body {
     background: #0271c0;
     color: aliceblue;
 } 
+
+@media (max-width: 992px) {
+    .container {
+        position: relative;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container .card {
+        max-width: 300px;
+        height: auto;
+        flex-direction: column;
+        background: transparent;
+        margin: -20px 0;
+    }
+
+    .container .card .imgBx {
+        position: relative;
+    }
+
+    .container .card .imgBx,
+    .container .card:hover .imgBx {
+        width: 80%;
+        height: 200px;
+        top: 100%;
+        left: 10%;
+    }
+
+    .container .card:hover .imgBx {
+        top: 80px;
+    }
+
+    .container .card .imgBx img,
+    .container .card:hover .imgBx img {
+        max-width: 100px;
+    }
+
+    .container .card .content {
+        
+    }
+}

@@ -73,3 +73,8 @@ body {
 .container .card:hover .imgBx img {
     max-width: 75px
 }
+
+.container .card .content {
+    position: absolute;
+    
+}

@@ -114,7 +114,7 @@ body {
     }
 
     .container .card {
-        width: 300px;
+        width: 400px;
         height: auto;
         flex-direction: column;
         background: transparent;
@@ -125,20 +125,14 @@ body {
     .container .card .imgBx {
         position: absolute;
         top: 10px;
-        left: 0;
-        width: 90%;
-    }
-
-    .container .card .imgBx,
-    .container .card:hover .imgBx {
-        width: 80%;
-        height: 200px;
-      /*  top: 80%;
-        left: 10%; */
+        left: 10px;
+        width: 95%;
+        height: 95%;
     }
 
     .container .card:hover .imgBx {
-        top: 80px;
+        top: -25px;
+        left: 65%; 
     }
 
     .container .card .imgBx img,

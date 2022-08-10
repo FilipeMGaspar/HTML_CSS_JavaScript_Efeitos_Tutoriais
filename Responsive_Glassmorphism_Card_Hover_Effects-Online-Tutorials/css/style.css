@@ -57,7 +57,14 @@ body {
 }
 
 .container .card .imgBx img {
-    width: 30%;
+    width: 25%;
     height: 40%;
     filter: invert(1);
+}
+
+.container .card:hover .imgBx {
+    height: 150px;
+    width: 150px;
+    left: -75px;
+    top: calc(50% -75px);
 }

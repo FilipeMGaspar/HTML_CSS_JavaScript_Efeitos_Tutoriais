@@ -41,7 +41,7 @@ body {
     top: 0;
 }
 
-.testimonials .card content {
+.testimonials .card .content {
     position: relative;
     z-index: 2;
 }

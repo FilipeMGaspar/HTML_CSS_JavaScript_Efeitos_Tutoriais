@@ -8,6 +8,27 @@ body {
 }
 
 .testimonials {
+    margin: 200px auto 100px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 20px;
+}
+
+.testimonials .card {
+    position: relative;
+    width: 350px;
+    margin: 0 auto;
+    background: #333;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.testimonials .card .layer {
+    
+}
+
+.testimonials .card content {
+    z-index: 2;
 }

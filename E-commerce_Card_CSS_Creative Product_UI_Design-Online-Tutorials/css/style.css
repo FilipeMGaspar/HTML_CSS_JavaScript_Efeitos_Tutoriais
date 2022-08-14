@@ -100,7 +100,8 @@ body {
 
 }
 
-.container .card .contentBx .size {
+.container .card .contentBx .size, 
+.container .card .contentBx .color {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -108,6 +109,34 @@ body {
     transition: 0.5s;
 }
 
+.container .card .contentBx .size h3,
+.container .card .contentBx .color h3 {
+    color: #fff;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: 10px;
+}
+
 .container .card .contentBx .size span {
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    font-size: 14px;
+    display: inline-block;
+    color: #111;
+    margin: 0 5px;
+    transition: 0.5s;
+    background: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.container .card .contentBx .size span:hover {
+    background: #9bdc28;
+}
+
+.container .card .contentBx .color span {
     
 }

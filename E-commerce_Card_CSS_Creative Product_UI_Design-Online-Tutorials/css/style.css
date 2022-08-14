@@ -109,6 +109,10 @@ body {
     transition: 0.5s;
 }
 
+.container .card:hover .contentBx .size {
+    
+}
+
 .container .card .contentBx .size h3,
 .container .card .contentBx .color h3 {
     color: #fff;
@@ -173,5 +177,7 @@ body {
 }
 
 .container .card:hover .contentBx a {
-    
+    opacity: 1;
+    transform: translateY(0px);
+    transition-delay: 0.75s;
 }

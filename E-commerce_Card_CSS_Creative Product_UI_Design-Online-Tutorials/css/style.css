@@ -100,4 +100,14 @@ body {
 
 }
 
-.container .card .contentBx 
+.container .card .contentBx .size {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+    transition: 0.5s;
+}
+
+.container .card .contentBx .size span {
+    
+}

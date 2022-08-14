@@ -88,5 +88,5 @@ body {
 }
 
 .container .card:hover .contentBx {
-    
+    height: 210px;
 }

@@ -90,3 +90,14 @@ body {
 .container .card:hover .contentBx {
     height: 210px;
 }
+
+.container .card .contentBx h2 {
+    position: relative;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #fff;
+
+
+}
+
+.container .card .contentBx 

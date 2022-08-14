@@ -68,5 +68,11 @@ body {
 }
 
 .testimonials .card .content .details h2 span {
+    color: #03a9f4;
+    font-size: 14px;
+    transition: 0.5s;
+}
+
+.testimonials .card:hover .content .details h2 span {
     
 }

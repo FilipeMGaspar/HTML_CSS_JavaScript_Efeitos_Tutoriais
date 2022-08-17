@@ -90,6 +90,7 @@ body {
     font-weight: 500;
     letter-spacing: 2px;
     font-size: 14px;
+    text-decoration: none;
 }
 
 .container .card .more::before {

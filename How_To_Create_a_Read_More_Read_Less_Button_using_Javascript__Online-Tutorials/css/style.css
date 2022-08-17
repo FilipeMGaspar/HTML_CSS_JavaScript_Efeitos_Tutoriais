@@ -96,3 +96,7 @@ body {
 .container .card .more::before {
     content: 'Read More';
 }
+
+.container .card.active .more::before {
+    content: 'Read Less';
+}

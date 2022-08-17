@@ -61,6 +61,10 @@ body {
     overflow: hidden;
 }
 
+.container .card.active .content {
+    height: auto;
+}
+
 .container .card .content::before {
     content: '';
     position: absolute;
@@ -69,6 +73,10 @@ body {
     width: 100%;
     height: 100px;
     background: linear-gradient(transparent, #3f3f3f);
+}
+
+.container .card.active .content::before {
+    display: none;
 }
 
 .container .card .content h3 {

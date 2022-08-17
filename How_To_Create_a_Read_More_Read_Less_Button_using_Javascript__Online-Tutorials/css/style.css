@@ -62,3 +62,8 @@ body {
     font-weight: 600;
     margin-bottom: 10px;
 }
+
+.container .card .content p {
+    font-weight: 300;
+    color: #ccc;
+}

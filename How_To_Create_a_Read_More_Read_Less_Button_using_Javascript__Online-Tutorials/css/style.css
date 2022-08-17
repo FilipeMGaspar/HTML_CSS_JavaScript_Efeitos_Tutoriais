@@ -42,6 +42,11 @@ body {
     border-right: 20px solid #17e78c;
 }
 
+.container .card.active::before {
+    border-top: 20px solid #ff3b7e;
+    border-right: 20px solid #ff3b7e;
+}
+
 .container .card .icon {
     margin-bottom: 10px;
 }
@@ -91,6 +96,11 @@ body {
     letter-spacing: 2px;
     font-size: 14px;
     text-decoration: none;
+}
+
+.container .card.active .more{
+    background: #ff3b7e;
+    color: #fff;
 }
 
 .container .card .more::before {

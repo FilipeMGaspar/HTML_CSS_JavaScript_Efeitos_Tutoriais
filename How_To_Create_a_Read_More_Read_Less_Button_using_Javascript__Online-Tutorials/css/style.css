@@ -23,3 +23,20 @@ body {
     width: 1200px;
     flex-wrap: wrap;
 }
+
+.container .card {
+    position: relative;
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    background: #3f3f3f;
+}
+
+.container .card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 20px solid #17e78c;
+    border-top: 20px solid #17e78c;
+}

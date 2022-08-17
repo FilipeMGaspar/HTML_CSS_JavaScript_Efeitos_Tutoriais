@@ -79,5 +79,13 @@ body {
 }
 
 .container .card .more {
+    position: relative;
+    padding: 10px 15px;
+    background: #17e78c;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.container .card .more::before {
     
 }

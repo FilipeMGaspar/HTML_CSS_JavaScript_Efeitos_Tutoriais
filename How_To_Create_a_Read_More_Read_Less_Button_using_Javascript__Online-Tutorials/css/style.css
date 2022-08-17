@@ -37,6 +37,15 @@ body {
     position: absolute;
     top: 0;
     right: 0;
-    border: 20px solid #17e78c;
+    border: 20px solid transparent;
     border-top: 20px solid #17e78c;
+    border-right: 20px solid #17e78c;
+}
+
+.container .card .icon {
+    margin-bottom: 10px;
+}
+
+.container .card .icon img {
+    max-width: 90px;
 }

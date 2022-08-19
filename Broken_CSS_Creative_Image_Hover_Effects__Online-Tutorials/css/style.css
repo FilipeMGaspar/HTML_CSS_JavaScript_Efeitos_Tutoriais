@@ -26,3 +26,8 @@ body {
     background: url("../images/man_img1.jpg");
     background-size: cover;
 }
+
+.box span:nth-child(1) {
+    clip-path: polygon(0 0, 50% 0, 50% 50%, 0 50%);
+    background: #a00;
+}

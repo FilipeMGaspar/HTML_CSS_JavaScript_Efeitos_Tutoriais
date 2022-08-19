@@ -24,4 +24,5 @@ body {
     inset: 0;
     transition: 0.5s;
     background: url("../images/man_img1.jpg");
+    background-size: cover;
 }

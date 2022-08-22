@@ -101,5 +101,12 @@ body {
 }
 
 .content p {
-    
+    color: #fff;
+}
+.content a {
+    position: relative;
+    color: #111;
+    background: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
 }

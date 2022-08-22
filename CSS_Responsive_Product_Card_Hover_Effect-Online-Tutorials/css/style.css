@@ -120,10 +120,13 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0);
-    height: 300px;
+    height: 500px;
     transition: 0.5s;
+    transition-delay: 0s;
 }
 
-.card .product_img {
-    
+.card:hover .product_img {
+    left: 72%;
+    transform: translate(-50%, -50%) scale(1);
+    transition-delay: 0.5s;
 }

@@ -40,6 +40,9 @@ body {
     /* background: #f00; */
     border-radius: 20px;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card .circle::before {
@@ -56,4 +59,9 @@ body {
 
 .card:hover .circle::before {
     clip-path: circle(400px at center);
+}
+
+.card .circle .logo {
+    position: relative;
+    width: 200px;
 }

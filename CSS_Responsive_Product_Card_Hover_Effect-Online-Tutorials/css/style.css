@@ -148,9 +148,12 @@ body {
         bottom: 30px;
         left: 50%;
         transform: translate(-50%, 0%) scale(1);
+        height: 270px;
     }
 
     .card .content {
-        
+        width: 100%;
+        left: 0;
+        padding: 40px;
     }
 }

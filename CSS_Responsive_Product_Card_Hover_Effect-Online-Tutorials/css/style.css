@@ -64,4 +64,11 @@ body {
 .card .circle .logo {
     position: relative;
     width: 200px;
+    transition: 0.5s;
+    transition-delay: 0.5s;
+}
+
+.card:hover .circle .logo {
+    transform: scale(0);
+    transition-delay: 0s;
 }

@@ -38,6 +38,11 @@ body {
     z-index: 10000;
     border-radius: 50%;
     cursor: pointer;
-    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
     font-size: 2em;
+    transition: transform 1.25s;
+}
+
+.menu.active .toggle {
+    transform: rotate(315deg);
 }

@@ -1,4 +1,6 @@
 let toggle = document.querySelector('.toggle');
 let menu = document.querySelector('.menu');
 
-toggle
+toggle.onclick = function() {
+    menu.classList.toggle('active');
+}

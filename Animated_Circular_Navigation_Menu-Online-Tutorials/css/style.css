@@ -23,5 +23,10 @@ body {
 }
 
 .menu li {
+    position: absolute;
+    list-style: none;
+}
+
+.toggle {
     
 }

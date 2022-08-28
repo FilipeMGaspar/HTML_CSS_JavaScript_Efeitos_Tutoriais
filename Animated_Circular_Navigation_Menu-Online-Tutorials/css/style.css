@@ -24,7 +24,9 @@ body {
 
 .menu li {
     position: absolute;
+    left: 0;
     list-style: none;
+    transform-origin: 100px;
     transform: rotate(calc(360deg / 8 * var(--i)));
 }
 

@@ -25,6 +25,7 @@ body {
 .menu li {
     position: absolute;
     list-style: none;
+    transform: rotate(calc(360deg / 8 * var(--i)));
 }
 
 .toggle {

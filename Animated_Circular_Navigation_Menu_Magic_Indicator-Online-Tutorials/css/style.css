@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #222237;
+    background: #222327;
 }
 
 .menu {
@@ -27,7 +27,7 @@ body {
     width: 75px;
     height: 75px;
     background: #fff;
-    color: #222237;
+    color: #222327;
     font-weight: 900;
     border-radius: 50%;
     display: flex;
@@ -41,7 +41,7 @@ body {
 .menu .toggle.active {
     transform: rotate(315deg);
     box-shadow: 0 0 0 68px #fff;
-    background: #222237;
+    background: #222327;
     color: #fff;
     font-weight: 900;
 }
@@ -70,7 +70,7 @@ body {
     width: 55px;
     height: 55px;
     font-size: 1.75em;
-    color: #222237;
+    color: #222327;
     transform: rotate(calc(360deg / -8 * var(--i)));
     /*background: #ccc; */
     border-radius: 50%;
@@ -86,7 +86,7 @@ body {
     transform-origin: right;
     width: 100px;
     height: 1px;
-    background: #f00;
+    background: transparent;
     pointer-events: none;
     transition: 0.5s;
 }
@@ -98,7 +98,7 @@ body {
     left: 72px;
     width: 55px;
     height: 55px;
-    background: #222237;
+    background: #222327;
     box-shadow: 0 0 0 6px #29fd53;
     border-radius: 50%;
     transition: 0.5s;
@@ -110,7 +110,7 @@ body {
     top: -27.5px;
     left: -27.5px;
     background: #29fd53;
-    box-shadow: 0 0 0 6px #222237;
+    box-shadow: 0 0 0 6px #222327;
 }
 
 .menu li:nth-child(2).active ~ .indicator {

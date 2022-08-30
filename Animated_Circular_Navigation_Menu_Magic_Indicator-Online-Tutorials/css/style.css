@@ -28,11 +28,20 @@ body {
     height: 75px;
     background: #fff;
     color: #222237;
+    font-weight: 900;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 3em;
+    font-size: 3.5em;
     cursor: pointer;
     transition: 0.5s;
+}
+
+.menu .toggle.active {
+    transform: rotate(315deg);
+    box-shadow: 0 0 0 68px #fff;
+    background: #222237;
+    color: #fff;
+    font-weight: 900;
 }

@@ -132,3 +132,15 @@ body {
 .menu li:nth-child(6).active ~ .indicator {
     transform: translateX(-103px) rotate(180deg);
 }
+
+.menu li:nth-child(7).active ~ .indicator {
+    transform: translateX(-103px) rotate(225deg);
+}
+
+.menu li:nth-child(8).active ~ .indicator {
+    transform: translateX(-103px) rotate(270deg);
+}
+
+.menu li:nth-child(9).active ~ .indicator {
+    transform: translateX(-103px) rotate(315deg);
+}

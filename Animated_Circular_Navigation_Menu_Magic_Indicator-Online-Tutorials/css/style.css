@@ -83,6 +83,7 @@ body {
 .indicator {
     position: absolute;
     left: calc(50% + 2.5px);
+    transform-origin: right;
     width: 100px;
     height: 1px;
     background: #f00;
@@ -114,4 +115,20 @@ body {
 
 .menu li:nth-child(2).active ~ .indicator {
     transform: translateX(-103px) rotate(0deg);
+}
+
+.menu li:nth-child(3).active ~ .indicator {
+    transform: translateX(-103px) rotate(45deg);
+}
+
+.menu li:nth-child(4).active ~ .indicator {
+    transform: translateX(-103px) rotate(90deg);
+}
+
+.menu li:nth-child(5).active ~ .indicator {
+    transform: translateX(-103px) rotate(135deg);
+}
+
+.menu li:nth-child(6).active ~ .indicator {
+    transform: translateX(-103px) rotate(180deg);
 }

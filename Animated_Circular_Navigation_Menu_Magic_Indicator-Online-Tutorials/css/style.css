@@ -45,3 +45,24 @@ body {
     color: #fff;
     font-weight: 900;
 }
+
+.menu li {
+    position: absolute;
+    left: 10px;
+    list-style: none;    
+    transform: rotate(calc(360deg / 8 * var(--i))) translateX(40px);
+    transform-origin: 140px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    z-index: 10;
+}
+
+.menu.active li {
+    visibility: visible;
+    opacity: 1;
+}
+
+.menu.active li a {
+    
+}

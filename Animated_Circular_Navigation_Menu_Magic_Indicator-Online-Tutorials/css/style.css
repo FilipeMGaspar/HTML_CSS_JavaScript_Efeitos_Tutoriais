@@ -64,5 +64,18 @@ body {
 }
 
 .menu.active li a {
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    height: 55px;
+    font-size: 1.75em;
+    color: #222237;
+    transform: rotate(calc(360deg / -8 * var(--i)));
+    background: #ccc;
+    border-radius: 50%;
+}
+
+.menu.active li.active {
+    transform: rotate(calc(360deg / 8 * var(--i))) translateX(12px);
 }

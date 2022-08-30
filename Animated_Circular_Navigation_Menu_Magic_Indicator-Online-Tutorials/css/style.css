@@ -79,3 +79,17 @@ body {
 .menu.active li.active {
     transform: rotate(calc(360deg / 8 * var(--i))) translateX(12px);
 }
+
+.indicator {
+    position: absolute;
+    left: calc(50% + 2.5px);
+    width: 100px;
+    height: 1px;
+    background: #f00;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.indicator::before {
+    
+}

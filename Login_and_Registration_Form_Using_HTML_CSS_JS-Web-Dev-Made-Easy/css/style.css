@@ -19,6 +19,18 @@ input {
     overflow: hidden;
 }
 
+.container::before {
+    content: '';
+    position: absolute;
+    height: 2000px;
+    width: 2000px;
+    top: -10%;
+    right: 48%;
+    background: linear-gradient(-45deg, #20dbc2 0%, #00bfa6 100%);
+    transform: translateY(-50%);
+    border-radius: 50%;
+}
+
 .forms-container {
     position: absolute;
     width: 100%;
@@ -32,6 +44,7 @@ form {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0 5rem;
     grid-column: 1 / 2;
     grid-row: 1 / 2;
 }

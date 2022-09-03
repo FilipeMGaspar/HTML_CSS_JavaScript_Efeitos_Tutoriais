@@ -134,5 +134,10 @@ form {
 }
 
 form.sign-in-form {
-    
+    z-index: 2;
+}
+
+form.sign-up-form {
+    z-index: 1;
+    opacity: 0;
 }

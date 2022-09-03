@@ -54,5 +54,12 @@ form {
 }
 
 .input-field i {
+    text-align: center;
+    line-height: 55px;
+    color: #acacac;
+    font-size: 1.5rem;
+}
+
+.input-field input {
     
 }

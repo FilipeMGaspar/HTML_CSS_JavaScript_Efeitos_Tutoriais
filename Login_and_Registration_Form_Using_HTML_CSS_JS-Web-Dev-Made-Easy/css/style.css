@@ -81,7 +81,7 @@ form {
     outline: none;
     border: none;
     border-radius: 48px;
-    background-color: #20dbc2;
+    background: #20dbc2;
     color: #fff;
     text-transform: uppercase;
     font-weight: 600;
@@ -89,3 +89,30 @@ form {
     transition: all 0.5s;
 }
 
+.btn:hover {
+    background: #00bfa6;
+}
+
+.social-text {
+    padding: 0.7rem 0;
+}
+
+.social-medias {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons {
+    height: 46px;
+    width: 46px;
+    border: 1px solid #333;
+    margin: 0 0.45rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    font-size: 1.3rem;
+    border-radius: 50%;
+    transition: all 0.5s;
+}

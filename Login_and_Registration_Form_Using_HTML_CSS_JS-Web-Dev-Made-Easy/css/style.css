@@ -116,3 +116,8 @@ form {
     border-radius: 50%;
     transition: all 0.5s;
 }
+
+.social-icons:hover {
+    color: #20dbc2;
+    border-color: #00bfa6;
+}

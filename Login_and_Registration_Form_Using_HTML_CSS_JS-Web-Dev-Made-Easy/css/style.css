@@ -236,3 +236,15 @@ form.sign-up-form {
 .container.sign-up-mode .right-panel .content {
     transform: translate(0%);
 }
+
+.container.sign-up-mode .left-panel {
+    pointer-events: none;
+}
+
+.container.sign-up-mode .right-panel {
+    pointer-events: all;
+}
+
+.container.sign-up-mode .right-pane .signin-signup {
+    left: 25%;
+}

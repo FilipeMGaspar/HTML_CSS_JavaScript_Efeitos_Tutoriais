@@ -220,8 +220,8 @@ form.sign-up-form {
 }
 
 /* Animações */
-.container.sign-up-mode {
-    transform: translate(100%, 50%);
+.container.sign-up-mode::before {
+    transform: translate(100%, -50%);
     right: 52%;
 }
 

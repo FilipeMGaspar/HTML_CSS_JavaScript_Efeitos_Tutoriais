@@ -209,3 +209,7 @@ form.sign-up-form {
     font-size: 0.8rem;
 }
 
+.left-panel .content,
+.right-panel .image {
+    transform: translateX(800px);
+}

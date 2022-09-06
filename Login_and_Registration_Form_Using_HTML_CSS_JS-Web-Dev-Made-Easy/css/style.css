@@ -149,6 +149,16 @@ form {
     z-index: 5;
 }
 
+.signup-signup {
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-columns: 1fr;
+    z-index: 5;
+}
+
 form.sign-in-form {
     z-index: 2;
 }
@@ -247,4 +257,14 @@ form.sign-up-form {
 
 .container.sign-up-mode .right-pane .signin-signup {
     left: 25%;
+}
+
+.container.sign-up-mode form.sign-in-form {
+    z-index: 1;
+    opacity: 0;
+}
+
+.container.sign-up-mode form.sign-up-form {
+    z-index: 2;
+    opacity: 1;
 }

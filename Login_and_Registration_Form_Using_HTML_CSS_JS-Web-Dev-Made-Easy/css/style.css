@@ -147,21 +147,12 @@ form {
     display: grid;
     grid-template-columns: 1fr;
     z-index: 11;
+    transition: 1s 0.7s ease-in-out;
 }
 
-.signup-signup {
-    position: absolute;
-    top: 60%;
-    left: 25%;
-    transform: translate(-50%, -50%);
-    display: grid;
-    grid-template-columns: 1fr;
-    z-index: 4;
-}
 
 form.sign-in-form {
     z-index: 2;
-    pointer-events: all;
 }
 
 form.sign-up-form {

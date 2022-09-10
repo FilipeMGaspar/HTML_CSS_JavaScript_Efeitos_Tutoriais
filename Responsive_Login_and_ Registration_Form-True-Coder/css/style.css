@@ -156,3 +156,23 @@ form.sign-up-form {
     color: #4481eb;
     border-color: #4481eb;
 }
+
+.panels-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.panel {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.image {
+    width: 100%;
+}

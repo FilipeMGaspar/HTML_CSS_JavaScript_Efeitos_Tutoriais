@@ -185,10 +185,12 @@ form.sign-up-form {
 
 .left-panel {
     padding: 3rem 17% 2rem 12%;
+    pointer-events: all;
 }
 
 .right-panel {
     padding: 3rem 12% 2rem 17%;
+    pointer-events: none;
 }
 
 .panel .content {
@@ -231,12 +233,12 @@ form.sign-up-form {
 
 .container.sign-up-mode .left-panel .image,
 .container.sign-up-mode .left-panel .content {
-    transform: translate(-800px);
+    transform: translatex(-800px);
 }
 
 .container.sign-up-mode .right-panel .image,
 .container.sign-up-mode .right-panel .content {
-    transform: translate(0%);
+    transform: translateX(0);
 }
 
 
@@ -248,7 +250,7 @@ form.sign-up-form {
     pointer-events: all;
 }
 
-.container.sign-up-mode .right-pane .signin-signup {
+.container.sign-up-mode .signin-signup {
     left: 25%;
 }
 

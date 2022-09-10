@@ -49,7 +49,8 @@ form {
     padding: 0 5rem;
     grid-column: 1 / 2;
     grid-row: 1 / 2;
-    transition: 1.2s 0.3s ease-in-out;
+    transition: 0.8s ease-in-out;
+    transition-delay: 0.5s;
 }
 
 .title {
@@ -147,8 +148,8 @@ form {
     transform: translate(-50%, -50%);
     display: grid;
     grid-template-columns: 1fr;
-    z-index: 11;
-    transition: 1s 0.7s ease-in-out;
+    z-index: 5;
+    transition: 0.5s ease-in-out;
 }
 
 

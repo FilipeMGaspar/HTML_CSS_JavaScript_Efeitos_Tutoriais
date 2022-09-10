@@ -30,6 +30,7 @@ body, input {
     right: 48%;
     transform: translateY(-50%);
     z-index: 6;
+    transition: 1.8s ease-in-out;
 }
 
 .forms-container{
@@ -190,6 +191,7 @@ form.sign-up-form {
 
 .panel .content {
     color: #fff;
+    transition: 0.9s 0.6s ease-in-out;
 }
 
 .panel h3 {
@@ -215,9 +217,17 @@ form.sign-up-form {
 
 .image {
     width: 100%;
+    transition: 0.9s 0.6s ease-in-out;
 }
 
 .right-panel .content,
 .right-panel .image {
     transform: translateX(800px);
 }
+
+/* Animações */
+.container.sign-up-mode::before {
+    transform: translate(100%, -50%);
+    right: 52%;
+}
+

@@ -287,8 +287,12 @@ form.sign-up-form {
     .panels-container {
         background-color: green;
         z-index: 10;
+        grid-template-columns: 1fr;
     }
 
-    .container.sign-up-mode .right-panel .image,
-.container.sign-up-mode .right-panel .content 
+    .right-panel .image,
+    .right-panel .content {
+    transform: translateX(0);
+    }
+
 }

@@ -302,6 +302,18 @@ form.sign-up-form {
         padding: 2.5rem 8%;
     }
 
+    .panel .content {
+        padding-right: 15%;
+    }
+
+    .panel h3 {
+        font-size: 1.2rem;
+    }
+
+    .panel p {
+        
+    }
+
     .image {
         width: 200px;
     }

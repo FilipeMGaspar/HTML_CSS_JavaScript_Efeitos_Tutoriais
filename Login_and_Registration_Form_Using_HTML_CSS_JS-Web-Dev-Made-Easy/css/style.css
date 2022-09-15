@@ -285,8 +285,6 @@ form.sign-up-form {
     }
     
     .panels-container {
-        background-color: green;
-        z-index: 10;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 2fr 1fr;
     }
@@ -295,6 +293,7 @@ form.sign-up-form {
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
+        padding: 2.5rem 8%;
     }
 
     .image {

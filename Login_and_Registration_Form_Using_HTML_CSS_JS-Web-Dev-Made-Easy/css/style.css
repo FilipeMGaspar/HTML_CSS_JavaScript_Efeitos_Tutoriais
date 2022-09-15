@@ -274,7 +274,13 @@ form.sign-up-form {
     }
 
     .container::before {
-        display: none;
+        width: 1500px;
+        height: 1500px;
+        left: 30%;
+        bottom: 68%;
+        transform: translateX(-50%);
+        right: initial;
+        top: initial;
     }
 
     .signin-signup {
@@ -310,7 +316,7 @@ form.sign-up-form {
 
     .right-panel .image,
     .right-panel .content {
-    transform: translateX(0);
+    transform: translateY(300px);
     }
 
 }

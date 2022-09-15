@@ -273,8 +273,7 @@ form.sign-up-form {
         height: 100vh;
     }
 
-    .container::before,
-    .panels-container {
+    .container::before {
         display: none;
     }
 
@@ -284,4 +283,12 @@ form.sign-up-form {
         top: 95%;
         transform: translate(-50%, -100%);
     }
+    
+    .panels-container {
+        background-color: green;
+        z-index: 10;
+    }
+
+    .container.sign-up-mode .right-panel .image,
+.container.sign-up-mode .right-panel .content 
 }

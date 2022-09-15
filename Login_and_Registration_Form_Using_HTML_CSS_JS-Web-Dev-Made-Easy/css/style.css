@@ -373,4 +373,9 @@ form.sign-up-form {
     .panel .content {
         padding: 0.5rem 1rem;
     }
+
+    .container.sign-up-mode::before {
+        bottom: 28%;
+        left: 50%;
+    }
 }

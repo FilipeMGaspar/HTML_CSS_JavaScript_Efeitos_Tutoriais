@@ -66,6 +66,13 @@ body {
     text-transform: initial;
 }
 
-.sci {
+.card .content .sci {
+    position: relative;
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+.card .content .sci li {
     
 }

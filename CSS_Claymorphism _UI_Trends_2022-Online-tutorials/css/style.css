@@ -9,9 +9,9 @@
 
 body {
     display: flex;
-    justify-content: center;
     align-items: center;
-    min-width: 100vh;
+    justify-content: center;
+    min-height: 100vh;
     background: #eaf6ff;
 }
 

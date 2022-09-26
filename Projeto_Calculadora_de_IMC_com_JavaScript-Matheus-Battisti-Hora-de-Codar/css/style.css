@@ -20,3 +20,15 @@ body {
 .hide {
     display: none !important;
 }
+
+.container {
+    min-height: 400px;
+    min-height: 400px;
+    background: #1d1e33;
+    padding: 2rem;
+}
+
+/* IMC Form */
+#calc-containe h2 {
+    
+}

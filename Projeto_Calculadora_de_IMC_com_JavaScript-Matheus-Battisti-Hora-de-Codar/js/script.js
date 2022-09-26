@@ -62,7 +62,11 @@ function createTable(data) {
         const obesity = document.createElement("p");
         obesity.innerText = item.obesity;
 
-        div.appendChild()
+        div.appendChild(classification);
+        div.appendChild(info);
+        div.appendChild(obesity);
+
+        
     });
 }
 

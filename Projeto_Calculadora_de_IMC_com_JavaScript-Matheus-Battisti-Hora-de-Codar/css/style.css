@@ -22,7 +22,7 @@ body {
 }
 
 .container {
-    min-height: 400px;
+    min-width: 400px;
     min-height: 400px;
     background: #1d1e33;
     padding: 2rem;
@@ -122,4 +122,9 @@ button:hover {
     margin-bottom: 0.5rem;
     padding-bottom: 0.5rem;
     border-bottom: 1px solid #444;
+}
+
+.table-header h4,
+.table-data p {
+    flex: 1;
 }

@@ -137,3 +137,7 @@ button:hover {
 #back-btn {
     align-self: center;
 }
+
+.good {
+    color: #12db34;
+}

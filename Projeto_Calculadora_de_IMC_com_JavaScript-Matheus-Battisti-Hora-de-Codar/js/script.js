@@ -50,3 +50,6 @@ const clearBtn = document.querySelector("#clear-btn");
 
 
 // Inicialização
+
+
+// Eventos

@@ -66,11 +66,11 @@ function createTable(data) {
         div.appendChild(info);
         div.appendChild(obesity);
 
-        
+        imcTable.appendChild(div);
     });
 }
 
 // Inicialização
-
+createTable(data);
 
 // Eventos

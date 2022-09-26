@@ -6,35 +6,35 @@ const data = [
         max: 18.4,
         classification: "Menor que 18,5",
         info: "Magreza",
-        obsity: "0",
+        obesity: "0",
     },
     {
         min: 18.5,
         max: 24.9,
         classification: "Entre 18,5 e 24,9",
         info: "Normal",
-        obsity: "0",
+        obesity: "0",
     },
     {
         min: 25,
         max: 29.9,
         classification: "Entre 25,0 e 29,9",
         info: "Sobrepeso",
-        obsity: "I",
+        obesity: "I",
     },
     {
         min: 30,
         max: 39.9,
         classification: "Entre 30,0 e 39,9",
         info: "Obsidade",
-        obsity: "II",
+        obesity: "II",
     },
     {
         min: 40,
         max: 99,
         classification: "Maior que 40,0",
         info: "Obsidade grave",
-        obsity: "III",
+        obesity: "III",
     },
 ];
 
@@ -54,7 +54,15 @@ function createTable(data) {
 
 
         const classification = document.createElement("p");
-        classification.innerText = intem.classification;
+        classification.innerText = item.classification;
+
+        const info = document.createElement("p");
+        info.innerText = item.info;
+
+        const obesity = document.createElement("p");
+        obesity.innerText = item.obesity;
+
+        div.appendChild()
     });
 }
 

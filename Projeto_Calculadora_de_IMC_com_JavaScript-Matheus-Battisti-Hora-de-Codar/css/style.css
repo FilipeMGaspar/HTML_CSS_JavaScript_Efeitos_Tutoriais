@@ -30,5 +30,12 @@ body {
 
 /* IMC Form */
 #calc-containe h2 {
-    
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.form-inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }

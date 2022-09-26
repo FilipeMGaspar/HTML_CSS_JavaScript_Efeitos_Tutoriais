@@ -72,4 +72,9 @@ button {
     color: #fff;
     cursor: pointer;
     opacity: 0.9;
+    flex: 1;
+}
+
+button:hover {
+    opacity: 1;
 }

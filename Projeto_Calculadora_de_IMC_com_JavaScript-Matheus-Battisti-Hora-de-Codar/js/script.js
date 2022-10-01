@@ -91,6 +91,12 @@ createTable(data);
     });
 });
 
+calcBtn.addEventListener("click", (e) => {
+    e.preventDefault();
+
+    const weight = weightInput.value.replace(",", ".");
+});
+
 clearBtn.addEventListener("click", (e) => {
     e.preventDefault();
     clearinputs();

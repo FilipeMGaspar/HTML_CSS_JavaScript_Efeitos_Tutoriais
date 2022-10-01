@@ -86,6 +86,8 @@ createTable(data);
 [heightInput, weightInput].forEach((el) => {
     el.addEventListener("input", (e) => {
         const updatedValue = validDigits(e.target.value);
+
+        e.target.value = updatedValue;
     });
 });
 

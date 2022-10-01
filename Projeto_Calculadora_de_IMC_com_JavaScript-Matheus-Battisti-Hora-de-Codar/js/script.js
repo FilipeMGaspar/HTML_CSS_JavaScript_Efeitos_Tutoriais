@@ -80,5 +80,6 @@ createTable(data);
 
 // Eventos
 clearBtn.addEventListener("click", (e) => {
+    e.preventDefault();
     clearinputs();
 });

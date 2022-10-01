@@ -94,7 +94,12 @@ createTable(data);
 calcBtn.addEventListener("click", (e) => {
     e.preventDefault();
 
-    const weight = weightInput.value.replace(",", ".");
+    const weight = +weightInput.value.replace(",", ".");
+    const height = +heightInput.value.replace(",", ".");
+
+    if(!weight || !height) {
+
+    }
 });
 
 clearBtn.addEventListener("click", (e) => {

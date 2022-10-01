@@ -76,7 +76,7 @@ function clearinputs() {
 }
 
 function validDigits(text) {
-    return text.replace(/[^0-9]/);
+    return text.replace(/[^0-9,]/);
 }
 
 // Inicialização

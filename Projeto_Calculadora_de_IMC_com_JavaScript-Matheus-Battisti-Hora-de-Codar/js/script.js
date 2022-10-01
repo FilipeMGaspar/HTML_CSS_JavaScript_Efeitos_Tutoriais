@@ -75,6 +75,10 @@ function clearinputs() {
     weightInput.value = "";
 }
 
+function validDigits(text) {
+    
+}
+
 // Inicialização
 createTable(data);
 

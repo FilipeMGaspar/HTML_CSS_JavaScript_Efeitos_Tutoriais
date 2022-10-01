@@ -70,6 +70,11 @@ function createTable(data) {
     });
 }
 
+function clearinputs() {
+    heightInput.value = "";
+    weightInput.value = "";
+}
+
 // Inicialização
 createTable(data);
 

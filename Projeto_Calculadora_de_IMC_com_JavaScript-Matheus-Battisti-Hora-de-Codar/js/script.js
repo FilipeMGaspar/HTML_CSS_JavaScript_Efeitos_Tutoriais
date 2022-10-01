@@ -79,3 +79,6 @@ function clearinputs() {
 createTable(data);
 
 // Eventos
+clearBtn.addEventListener("click", (e) => {
+    clearinputs();
+});

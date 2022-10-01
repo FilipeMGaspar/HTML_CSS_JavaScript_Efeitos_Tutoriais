@@ -97,9 +97,8 @@ calcBtn.addEventListener("click", (e) => {
     const weight = +weightInput.value.replace(",", ".");
     const height = +heightInput.value.replace(",", ".");
 
-    if(!weight || !height) {
-
-    }
+    if(!weight || !height) return;
+    
 });
 
 clearBtn.addEventListener("click", (e) => {

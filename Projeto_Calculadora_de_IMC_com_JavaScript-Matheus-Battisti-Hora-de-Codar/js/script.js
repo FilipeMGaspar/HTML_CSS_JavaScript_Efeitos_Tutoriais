@@ -79,6 +79,10 @@ function validDigits(text) {
     return text.replace(/[^0-9,]/g, "");
 }
 
+function calcImc(weight, height) {
+    const imc = (weight / (height * height));
+}
+
 // Inicialização
 createTable(data);
 

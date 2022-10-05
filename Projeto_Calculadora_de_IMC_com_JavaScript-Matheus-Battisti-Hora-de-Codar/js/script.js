@@ -139,3 +139,8 @@ clearBtn.addEventListener("click", (e) => {
     e.preventDefault();
     clearinputs();
 });
+
+backBtn.addEventListener("click", () => {
+    clearinputs();
+    showOrHideResults();
+});

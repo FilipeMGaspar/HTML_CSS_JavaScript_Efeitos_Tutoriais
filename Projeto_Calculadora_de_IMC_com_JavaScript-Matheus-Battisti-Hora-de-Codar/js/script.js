@@ -81,6 +81,8 @@ function validDigits(text) {
 
 function calcImc(weight, height) {
     const imc = (weight / (height * height)).toFixed(1);
+
+    return imc;
 }
 
 // Inicialização
@@ -103,6 +105,7 @@ calcBtn.addEventListener("click", (e) => {
 
     if(!weight || !height) return;
     
+    const imc = calcImc(weight, height);
 });
 
 clearBtn.addEventListener("click", (e) => {

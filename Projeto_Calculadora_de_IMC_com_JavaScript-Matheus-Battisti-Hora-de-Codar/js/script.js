@@ -46,6 +46,8 @@ const weightInput = document.querySelector("#weight");
 const calcBtn = document.querySelector("#calc-btn");
 const clearBtn = document.querySelector("#clear-btn");
 
+const imcNumber = document.querySelector("#imc-number span");
+
 // Funções
 function createTable(data) {
     data.forEach((item) => {

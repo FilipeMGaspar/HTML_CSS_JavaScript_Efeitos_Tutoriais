@@ -80,7 +80,7 @@ function validDigits(text) {
 }
 
 function calcImc(weight, height) {
-    const imc = (weight / (height * height));
+    const imc = (weight / (height * height)).toFixed(1);
 }
 
 // Inicialização

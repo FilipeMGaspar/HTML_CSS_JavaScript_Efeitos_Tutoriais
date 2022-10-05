@@ -48,6 +48,7 @@ const clearBtn = document.querySelector("#clear-btn");
 
 const imcNumber = document.querySelector("#imc-number span");
 const imcInfo = document.querySelector("#imc-info span");
+const backBtn = document.querySelector("#back-btn");
 
 // Funções
 function createTable(data) {

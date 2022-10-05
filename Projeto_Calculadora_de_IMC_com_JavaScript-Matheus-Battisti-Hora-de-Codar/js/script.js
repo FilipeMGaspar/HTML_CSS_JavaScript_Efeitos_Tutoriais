@@ -120,6 +120,11 @@ calcBtn.addEventListener("click", (e) => {
     });
 
     if (!info) return;
+
+    imcNumber.innerText = imc;
+    imcInfo.innerText = info;
+
+    
 });
 
 clearBtn.addEventListener("click", (e) => {

@@ -114,6 +114,8 @@ calcBtn.addEventListener("click", (e) => {
             info = item.info;
         }
     });
+
+    if (!info) return;
 });
 
 clearBtn.addEventListener("click", (e) => {
